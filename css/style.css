@@ -1,0 +1,220 @@
+body {
+    background: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Navbar CSS */
+#nav .col-md-2 {
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid silver;
+    background: white;
+}
+.active {
+    border-right: 3px solid #1364AD;
+}
+#nav ul {
+    list-style: none;
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#nav li {
+    padding: 3%;
+}
+#menu {
+    margin-top: 25%;
+}
+#menu a {
+text-decoration: none;
+display: block;
+line-height: 20px;
+color: black;
+-webkit-transition: color 0.2s ease-out;
+-moz-transition: color 0.2s ease-out;
+-o-transition: color 0.2s ease-out;
+-ms-transition: color 0.2s ease-out;
+transition: color 0.2s ease-out;
+}
+
+#menu a:hover {
+color: #1364AD;
+font-size: 20px;
+-webkit-transition: color 0.2s ease-out;
+-moz-transition: color 0.2s ease-out;
+-o-transition: color 0.2s ease-out;
+-ms-transition: color 0.2s ease-out;
+transition: color 0.2s ease-out;
+}
+
+.wrapper {
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
+    text-align: right;
+}
+.wrapper a {
+    color: #1364AD;
+}
+#socialmedia {
+    padding-top: 80%;
+    text-align: right;
+}
+
+#facebook {
+border: 1px solid #1364AD;
+color: white;
+background: #1364AD;
+padding: 4%;
+border-radius: 2px;
+font-size: 18px;
+}
+#facebook i {
+    border: 1px solid #3b5998;
+    background: #3b5998;
+    padding: 3%;
+    border-radius: 2px;
+}
+#socialmedia a:hover {
+    text-decoration: none;
+}
+/*navbar responsive settings*/
+@media screen and (max-width: 900px) {
+    #nav .col-sm-12 {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .active {
+        border-right: none;
+    }
+    #brand {
+        padding: 2%;
+    }
+    #menu {
+        margin-top: 0%;
+    }
+    #nav ul {
+        text-align: left;
+        float: left;
+    }
+    #nav li {
+        padding: 1%;
+        display: inline;
+    }
+    #nav li a {
+        float: left;
+        padding: 10px;
+    }
+    #footer a{
+        text-align: right;
+    }
+    #socialmedia {
+        padding-top: 5%;
+        text-align: center;
+    }
+    #content {margin-left: 0;}
+    #footernav a {
+        padding: 1%;
+    }
+    .wrapper {
+        position: relative;
+        bottom: 0%;
+        right: 0%;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #nav li a {
+        text-align: center;
+        float: none;
+    }
+    #footer {
+        text-align: center;
+        position: relative;
+    }
+    #socialmedia {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    form input {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    #footernav a {
+        padding: 1%;
+    }
+}
+/*Header */
+#header #content {
+background: rgba(232, 208, 169, .6);
+}
+
+#header h2 {
+text-align: center;
+}
+#header a {
+    color: #1364AD;;
+    font-weight: bold;
+}
+.greybox p {
+    font-size: 16px;
+}
+#header img {
+    border: 1px solid silver;
+}
+.greybox {
+    background: #D3D3D3;
+    border: 1px solid silver;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    padding: 1%;
+}
+.imgpad {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#bold {
+    font-weight: bold;
+}
+.quote {
+    font-size: 40px;
+    color: #1364AD;;
+    padding-top: 8%;
+    font-weight: bold;
+}
+.shadowheader {
+    color: #1364AD;;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+#header input {
+    padding: 12px;
+    border: 1px solid silver;
+}
+#header button {
+    padding: 12px;
+    border: 1px solid silver;
+    background: #1364AD;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#footernav {
+    font-size: 20px;
+    margin-top: 3%;
+    background: #1364AD;
+    border: 1px solid silver;
+    color: white;
+    padding: 1%;
+}
+#footernav img {
+    background: white;
+    height: 100px;
+    margin: 0 auto;
+}
