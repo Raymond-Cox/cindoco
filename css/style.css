@@ -63,16 +63,16 @@ transition: color 0.2s ease-out;
 }
 
 #facebook {
-border: 1px solid #1364AD;
-color: white;
-background: #1364AD;
+color: #1364AD;
+
 padding: 4%;
-border-radius: 2px;
 font-size: 18px;
 }
+
 #facebook i {
     border: 1px solid #3b5998;
     background: #3b5998;
+    color: white;
     padding: 3%;
     border-radius: 2px;
 }
