@@ -79,6 +79,7 @@ font-size: 18px;
 #socialmedia a:hover {
     text-decoration: none;
 }
+
 /*navbar responsive settings*/
 @media screen and (max-width: 900px) {
     #nav .col-sm-12 {
@@ -114,7 +115,9 @@ font-size: 18px;
         padding-top: 5%;
         text-align: center;
     }
-    #content {margin-left: 0;}
+    #content {
+        margin-left: 0;
+    }
     #footernav a {
         padding: 1%;
     }
@@ -124,6 +127,9 @@ font-size: 18px;
         right: 0%;
         text-align: right;
     }
+    #productlist h5 {
+        padding-top: 5%;
+      }
 }
 
 @media screen and (max-width: 400px) {
@@ -147,7 +153,11 @@ font-size: 18px;
     #footernav a {
         padding: 1%;
     }
+    #productlist h5 {
+        padding-top: 0%;
+      }
 }
+
 /*Header */
 #header #content {
 background: rgba(232, 208, 169, .6);
@@ -188,7 +198,7 @@ text-align: center;
     font-weight: bold;
 }
 .shadowheader {
-    color: #1364AD;;
+    color: #1364AD;
     font-size: 40px;
     font-family: 'Lato', sans-serif;
 }
@@ -218,3 +228,137 @@ text-align: center;
     height: 100px;
     margin: 0 auto;
 }
+
+/* Product page */
+/* Tabbed Area */
+#tabbedarea {
+    background: #D3D3D3;
+    border: 1px solid silver;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    
+  }
+  
+  #tabbedarea p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+  }
+  
+  .tab {
+    overflow: hidden;
+    background-color: #D3D3D3;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    color: white;
+    opacity: .7;
+    letter-spacing: 1px;
+    
+    outline: none;
+    cursor: pointer;
+    padding: 14px 18px;
+    display: block;
+    width: 100%;
+  }
+  
+  .tab button:hover {
+    color: white;
+    opacity: 1;
+  }
+  
+  .tab button.active {
+    background-color: #111822;
+    color: white;
+    opacity: 1;
+  }
+  
+  .tabcontent {
+    padding: 1%;
+    border: 1px solid silver;
+    background-color: white;
+  }
+
+  /* IMAGE SIZES ON PRODUCT LIST */
+
+  #merchandisers img {
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+    border: none;
+  }
+
+  #dowels img, #spindles img {
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    border: none;
+  }
+
+  #packaging img, #joinery img, #buttons img, #toy img, #knobs img {
+    margin: 0 auto;
+    height: 175px;
+    width: auto;
+    border: none;
+  }
+  #glue img:not(#ad) {
+    padding-top: 10%;
+    height: 250px;
+    width: auto;
+  }
+  #glue img {
+    border: none;
+    margin: 0 auto;
+  }
+  #thread img {
+    margin: 0 auto;
+  }
+  #ad {
+      padding-bottom: 5%;
+  }
+  #abrasives img, #pegs img {
+    height: 300px;
+    width: auto;
+    border: none;
+    margin: 0 auto;
+  }
+  #abrasives .row, #pegs .row, #spindles .row, #thread .row {
+    padding-bottom: 2%;
+  }
+  /* Product information formatting */
+  .productinfo h3 {
+      font-weight: bold;
+  }
+  .productinfo h6 {
+    font-size: 20px;
+  }
+  .productinfo ul li {
+      color: #1364AD;
+  }
+  .productinfo ul li span {
+      color: black;
+  }
+  
+  .description {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+  #productlist h5 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 35%;
+  }
+  #mouldingbottom {
+      padding-top: 3%;
+  }
+  .green {
+      color: green;
+      text-align: center;
+  }
+  .blue {
+      color: #1364AD !important;      
+  }
