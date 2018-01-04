@@ -21,10 +21,13 @@ body {
 #nav li {
     padding: 3%;
 }
-#menu {
+#menu1 {
     margin-top: 25%;
 }
-#menu a {
+#menu2 {
+    margin-top: -3%;
+}
+#menu1 a, #menu2 a {
 text-decoration: none;
 display: block;
 line-height: 20px;
@@ -36,9 +39,9 @@ color: black;
 transition: color 0.2s ease-out;
 }
 
-#menu a:hover {
+#menu1 a:hover, #menu2 a:hover {
 color: #1364AD;
-font-size: 20px;
+font-size: 18px;
 -webkit-transition: color 0.2s ease-out;
 -moz-transition: color 0.2s ease-out;
 -o-transition: color 0.2s ease-out;
@@ -46,7 +49,7 @@ font-size: 20px;
 transition: color 0.2s ease-out;
 }
 
-#menu a:visited {
+#menu1 a:visited, #menu2 a:visited {
     text-decoration: none;
 }
 .active {
@@ -55,7 +58,8 @@ transition: color 0.2s ease-out;
 }
 .active a {
     color: #1364AD !important;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .wrapper {
     position: absolute;
@@ -73,7 +77,6 @@ transition: color 0.2s ease-out;
 
 #facebook {
 color: #1364AD;
-padding: 4%;
 font-size: 18px;
 }
 
@@ -88,7 +91,9 @@ font-size: 18px;
     text-decoration: none;
 }
 
+
 /*navbar responsive settings*/
+
 @media screen and (max-width: 900px) {
     #nav .col-sm-12 {
         width: 100%;
@@ -98,30 +103,50 @@ font-size: 18px;
     .active {
         border-right: none;
     }
+    .active a {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #menu1 a:hover, #menu2 a:hover {
+        color: #1364AD;
+        font-size: 16px;
+        opacity: 1;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+        }
     #brand {
         padding: 2%;
     }
-    #menu {
+    #menu1 {
         margin-top: 0%;
     }
+    #menu2 {
+        margin-top: 0%;
+    }
+    #menu1 a, #menu2 a {
+        line-height: normal;
+    }
     #nav ul {
-        text-align: left;
-        float: left;
+        text-align: center;
     }
     #nav li {
         padding: 1%;
         display: inline;
     }
-    #nav li a {
-        float: left;
-        padding: 10px;
-    }
     #footer a{
         text-align: right;
     }
     #socialmedia {
-        padding-top: 5%;
+        padding-top: 0%;
+        padding-bottom: 1%;
         text-align: center;
+    }
+    #facebook {
+        color: #1364AD;
+        font-size: 18px;
     }
     #content {
         margin-left: 0;
@@ -129,12 +154,17 @@ font-size: 18px;
     #footernav a {
         padding: 1%;
     }
+    
     .wrapper {
         position: relative;
         bottom: 0%;
         right: 0%;
         text-align: right;
     }
+    #productlist {
+        margin-top: 5%;
+    }
+
     #productlist h5 {
         padding-top: 5%;
       }
@@ -149,7 +179,8 @@ font-size: 18px;
         text-align: center;
         letter-spacing: 1px;
         font-size: 16px;
-        
+        padding-left: 0%;
+        width: 100%;
     }
     
     #nav li a {
@@ -165,8 +196,10 @@ font-size: 18px;
         color: white !important;
         opacity: 1 !important;
     }
-    
-    #menu a:hover {
+    #menu1 a, #menu2 a {
+        padding: 4%;
+    }
+    #menu1 a:hover, #menu2 a:hover {
         color: white;
         font-size: 16px;
         opacity: 1;
@@ -183,8 +216,7 @@ font-size: 18px;
     }
     #socialmedia {
         text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding: 0% 0% 3% 0%;
         position: relative;
     }
     #facebook {
@@ -197,6 +229,13 @@ font-size: 18px;
     }
     #footernav a {
         padding: 1%;
+    }
+    #footernav img {
+        height: auto;
+        width: 80%;
+    }
+    #productlist {
+        margin-top: 5%;
     }
     #productlist h5 {
         padding-top: 0%;
