@@ -10,9 +10,7 @@ body {
     border-right: 1px solid silver;
     background: white;
 }
-.active {
-    border-right: 3px solid #1364AD;
-}
+
 #nav ul {
     list-style: none;
     text-align: right;
@@ -48,6 +46,16 @@ font-size: 20px;
 transition: color 0.2s ease-out;
 }
 
+#menu a:visited {
+    text-decoration: none;
+}
+.active {
+    border-right: 3px solid #1364AD;
+    font-size: 20px;
+}
+.active a {
+    color: #1364AD !important;
+}
 .wrapper {
     position: absolute;
     bottom: 2%;
@@ -64,7 +72,6 @@ transition: color 0.2s ease-out;
 
 #facebook {
 color: #1364AD;
-
 padding: 4%;
 font-size: 18px;
 }
@@ -76,7 +83,7 @@ font-size: 18px;
     padding: 3%;
     border-radius: 2px;
 }
-#socialmedia a:hover {
+#socialmedia a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
@@ -386,7 +393,6 @@ text-align: center;
   .verticalcenter {
       margin-top: 10%;
   }
-  
   /* Special Order Forms CSS */
   .specialheader {
     color: #1364AD;
