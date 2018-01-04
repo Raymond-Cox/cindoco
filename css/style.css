@@ -51,10 +51,11 @@ transition: color 0.2s ease-out;
 }
 .active {
     border-right: 3px solid #1364AD;
-    font-size: 20px;
+    
 }
 .active a {
     color: #1364AD !important;
+    font-size: 20px;
 }
 .wrapper {
     position: absolute;
@@ -143,10 +144,39 @@ font-size: 18px;
 }
 
 @media screen and (max-width: 400px) {
+    #nav ul {
+        list-style: none;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 16px;
+        
+    }
+    
     #nav li a {
         text-align: center;
         float: none;
+        border: 1px solid silver;
+        background: #1364AD;
+        opacity: .8;
+        color: white;
     }
+    .active a {
+        font-size: 16px;
+        color: white !important;
+        opacity: 1 !important;
+    }
+    
+    #menu a:hover {
+        color: white;
+        font-size: 16px;
+        opacity: 1;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+        }
+
     #footer {
         text-align: center;
         position: relative;
@@ -155,7 +185,12 @@ font-size: 18px;
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
+        position: relative;
     }
+    #facebook {
+        padding: 0%;
+    }
+
     form input {
         margin-top: 1%;
         margin-bottom: 1%;
@@ -175,6 +210,10 @@ font-size: 18px;
       }
     #specialorderform {
         text-align: center;
+    }
+
+    #merchandisers .shadowheader, #misc .shadowheader {
+        font-size: 30px;
     }
 }
 
