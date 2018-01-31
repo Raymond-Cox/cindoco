@@ -4,7 +4,7 @@ body {
 }
 
 /*Navbar CSS */
-#nav .col-md-2 {
+#nav .col-lg-2 {
     height: 100%;
     position: fixed;
     border-right: 1px solid silver;
@@ -15,7 +15,8 @@ body {
     list-style: none;
     text-align: right;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 1.75vmin;
+    padding-left: 0;
 }
 
 #nav li {
@@ -30,7 +31,6 @@ body {
 #menu1 a, #menu2 a {
 text-decoration: none;
 display: block;
-line-height: 20px;
 color: black;
 -webkit-transition: color 0.2s ease-out;
 -moz-transition: color 0.2s ease-out;
@@ -41,7 +41,6 @@ transition: color 0.2s ease-out;
 
 #menu1 a:hover, #menu2 a:hover {
 color: #1364AD;
-font-size: 18px;
 -webkit-transition: color 0.2s ease-out;
 -moz-transition: color 0.2s ease-out;
 -o-transition: color 0.2s ease-out;
@@ -58,7 +57,6 @@ transition: color 0.2s ease-out;
 }
 .active a {
     color: #1364AD !important;
-    font-size: 18px;
     font-weight: bold;
 }
 .wrapper {
@@ -92,13 +90,90 @@ font-size: 18px;
 }
 
 
-/*navbar responsive settings*/
-
-@media screen and (max-width: 900px) {
-    #nav .col-sm-12 {
+/*responsive settings*/
+@media screen and (max-width: 1199px) {
+    #nav .navbar {
         width: 100%;
         height: auto;
         position: relative;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    
+}
+@media screen and (max-width: 767px) {
+    .tabcontent {
+        margin-top: 5%;
+    }
+    #blocks img {
+        padding-top: 2%;
+    }
+    .mouldingpad {
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    #nav ul {
+        list-style: none;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 16px;
+        padding-left: 0%;
+        width: 100%;
+    }
+    
+    #nav li a {
+        text-align: center;
+        float: none;
+        border: 1px solid silver;
+        background: #1364AD;
+        opacity: .8;
+        color: white;
+    }
+    .active a {
+        font-size: 16px;
+        color: white !important;
+        opacity: 1 !important;
+    }
+    #menu1 a, #menu2 a {
+        padding: 3%;
+    }
+    #menu2 {
+        margin-top: -6% !important;
+    }
+    #menu1 a:hover, #menu2 a:hover {
+        color: white !important;
+        opacity: 1;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+        }
+    #socialmedia a {
+        position: absolute;
+        left: 0%;
+        margin-top: 3%;
+        text-align: left;
+    }
+    #facebook i {
+        padding: 4% !important;
+    }
+    .quote {
+        padding-top: 1% !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 576px) {
+    #facebook i {
+        padding: 2%;
+    }
+    .wrapper {
+        margin-top: 2.5%;
+    }
+    .tabcontent {
+        margin-top: 5%;
     }
     .active {
         border-right: none;
@@ -109,7 +184,6 @@ font-size: 18px;
     }
     #menu1 a:hover, #menu2 a:hover {
         color: #1364AD;
-        font-size: 16px;
         opacity: 1;
         -webkit-transition: none;
         -moz-transition: none;
@@ -173,7 +247,10 @@ font-size: 18px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 575px) {
+    .active {
+        border-right: none;
+    }
     #nav ul {
         list-style: none;
         text-align: center;
@@ -197,7 +274,13 @@ font-size: 18px;
         opacity: 1 !important;
     }
     #menu1 a, #menu2 a {
-        padding: 4%;
+        padding: 3%;
+    }
+    #menu1 {
+        margin-top: 0%;
+    }
+    #menu2 {
+        margin-top: 0%;
     }
     #menu1 a:hover, #menu2 a:hover {
         color: white;
@@ -212,6 +295,8 @@ font-size: 18px;
 
     #footer {
         text-align: center;
+        bottom: 0%;
+        right: 0%;
         position: relative;
     }
     #socialmedia {
@@ -222,17 +307,17 @@ font-size: 18px;
     #facebook {
         padding: 0%;
     }
-
+    
     form input {
         margin-top: 1%;
         margin-bottom: 1%;
     }
     #footernav a {
-        padding: 1%;
+        padding: .5%;
     }
     #footernav img {
         height: auto;
-        width: 80%;
+        width: 50%;
     }
     #productlist {
         margin-top: 5%;
@@ -253,6 +338,11 @@ font-size: 18px;
 
     #merchandisers .shadowheader, #misc .shadowheader {
         font-size: 30px;
+    }
+    .quote {
+        padding-top: 3% !important;
+        padding-bottom: 5%;
+        font-size: 30px !important;
     }
 }
 
@@ -403,6 +493,9 @@ text-align: center;
     width: auto;
     border: none;
   }
+  #mouldings img {
+    margin: 0 auto;
+}
   #glue img:not(#ad) {
     padding-top: 10%;
     height: 250px;
