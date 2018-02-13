@@ -1,6 +1,7 @@
 body {
     background: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',sans-serif;
+    
 }
 
 /*Navbar CSS */
@@ -62,33 +63,29 @@ transition: color 0.2s ease-out;
 .wrapper {
     position: absolute;
     bottom: 2%;
-    right: 6%;
-    text-align: right;
+    text-align: center;
+    
 }
-.wrapper a {
-    color: #1364AD;
+.socialmedia i {
+    font-size: 30px;
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
 }
-#socialmedia {
-    padding-top: 80%;
-    text-align: right;
+.socialmedia i:hover {
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
 }
-
-#facebook {
-color: #1364AD;
-font-size: 18px;
-}
-
-#facebook i {
-    border: 1px solid #3b5998;
-    background: #3b5998;
+.socialmedia2 i {
     color: white;
-    padding: 3%;
-    border-radius: 2px;
+    font-size: 30px;
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
 }
-#socialmedia a:hover, a:visited, a:active {
-    text-decoration: none;
+.socialmedia2 i:hover {
+    color: rgba(255, 255, 255, .8);
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
 }
-
 
 /*responsive settings*/
 @media screen and (max-width: 1199px) {
@@ -98,10 +95,11 @@ font-size: 18px;
         position: relative;
     }
 }
-@media screen and (max-width: 991px) and (min-width: 768px) {
-    
-}
+
 @media screen and (max-width: 767px) {
+    .socialmedia2 {
+        padding: 2%;
+    }
     .tabcontent {
         margin-top: 5%;
     }
@@ -110,6 +108,12 @@ font-size: 18px;
     }
     .mouldingpad {
         margin-top: 1%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 450px) {
+    #brand img {
+        height: 350px;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 767px) and (min-width: 576px) {
@@ -130,6 +134,7 @@ font-size: 18px;
         opacity: .8;
         color: white;
     }
+    
     .active a {
         font-size: 16px;
         color: white !important;
@@ -164,7 +169,31 @@ font-size: 18px;
         padding-bottom: 5%;
     }
 }
-
+@media screen and (max-width: 1700px) and (min-width: 1200px) {
+    .ourstory {
+        display: none;
+    }
+    .ourstoryalt {
+        display: block !important;
+    }
+    .location {
+        display: none;
+    }
+    .locationalt {
+        display: block !important;
+    }
+    #allproducts img {
+        height: 150px !important;
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .wrapper {
+        position: absolute !important;
+        bottom: 20% !important;
+        right: 2% !important;
+    }
+}
 @media screen and (max-width: 1199px) and (min-width: 576px) {
     #facebook i {
         padding: 2%;
@@ -233,7 +262,7 @@ font-size: 18px;
         position: relative;
         bottom: 0%;
         right: 0%;
-        text-align: right;
+        text-align: center;
     }
     #productlist {
         margin-top: 5%;
@@ -361,6 +390,12 @@ text-align: center;
 .greybox p {
     font-size: 16px;
 }
+.ourstoryalt {
+    display: none;
+}
+.locationalt {
+    display: none;
+}
 #header img {
     border: 1px solid silver;
 }
@@ -380,10 +415,10 @@ text-align: center;
     font-weight: bold;
 }
 .quote {
-    font-size: 40px;
+    font-size: 34px;
     color: #1364AD;
     padding-top: 8%;
-    font-weight: bold;
+    
 }
 .shadowheader {
     color: #1364AD;
@@ -396,6 +431,7 @@ text-align: center;
     padding: 12px;
     border: 1px solid silver;
 }
+
 #header button, input[type=submit] {
     padding: 12px;
     border: 1px solid silver;
@@ -446,7 +482,6 @@ text-align: center;
     color: white;
     opacity: .7;
     letter-spacing: 1px;
-    
     outline: none;
     cursor: pointer;
     padding: 14px 18px;
@@ -472,15 +507,29 @@ text-align: center;
   }
 
   /* IMAGE SIZES ON PRODUCT LIST */
-
+#allproducts .row {
+    margin-top: 3%;
+}
+#allproducts img {
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    border: none;
+}
+#allproducts button {
+    background: none;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
   #merchandisers img {
     margin: 0 auto;
-    height: 400px;
+    height: 300px;
     width: auto;
     border: none;
   }
 
-  #dowels img, #spindles img, #misc img {
+  #dowels img, #spindles img, #misc img, #pegs img {
     margin: 0 auto;
     height: 200px;
     width: auto;
@@ -511,7 +560,7 @@ text-align: center;
   #ad {
       padding-bottom: 5%;
   }
-  #abrasives img, #pegs img, {
+  #abrasives img {
     height: 300px;
     width: auto;
     border: none;
@@ -582,7 +631,15 @@ text-align: center;
     height: 150px;
     width: 75%;
   }
-  
+  .retailers img {
+      background-color: white;
+      height: 100px;
+      width: auto;
+      margin: 0 auto;
+  }
+  .retailers .row {
+      margin-top: 5%;
+  }
 /* Craftwood CSS */
   .invisbox {
     margin-top: 2%;
