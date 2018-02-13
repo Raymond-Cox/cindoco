@@ -70,23 +70,23 @@
                         the following form.  We will reply to your request promptly.  Thank you 
                         for your interest in the Cindoco Wood Products Company.</h4>
                     <div class="greybox">
-                        <form action="#">
+                        <form name="htmlform" method="post" action="html_form_send.php">
                         
-                        <p>Name:</p>
-                        <input type="text" name="name" required placeholder="first and last name">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required placeholder="First and last name"><br>
                         
-                        <p>Email:</p>
-                        <input type="email" name="email" required placeholder="email address">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="Email address"><br>
                         
-                        <p>Phone Number:</p>
-                        <input type="text" name="number" required placeholder="telephone number">
+                        <label for="telephone">Telephone Number:</label><br>
+                        <input type="text" id="phonenum" name="telephone" required placeholder="Telephone number"><br>
                         
-                        <p>Company Name:</p>
-                        <input type="text" name="company" required placeholder="company name">
+                        <label for="company">Company Name:</label><br>
+                        <input type="text" id="company" name="company" placeholder="Company name"><br>
                         
                         
-                        <p>Please specify which product and quantities you are looking for:</p>
-                        <textarea name="message" required>
+                        <label for="comment">Please specify which product and quantities you are looking for:</label>
+                        <textarea id="comment" name="comments" required>
                         </textarea>
                         <br>
                         <input type="submit" value="Submit">

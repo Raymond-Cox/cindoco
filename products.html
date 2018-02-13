@@ -69,25 +69,25 @@
           <div class=" col-xs-12 col-lg-3 tab">
             <div class="col-xs-12 col-sm-6 col-lg-12">
             <button class="tablinks" onclick="openTab(event, 'allproducts')" id="defaultOpen">All Products</button>
-            <button class="tablinks" onclick="openTab(event, 'merchandisers')">Merchandisers</button>
-            <button class="tablinks" onclick="openTab(event, 'packaging')">Packaging Programs</button>
-            <button class="tablinks" onclick="openTab(event, 'dowels')">Hardwood Dowels and Squares</button>
-            <button class="tablinks" onclick="openTab(event, 'buttons')">Buttons & Plugs</button>
-            <button class="tablinks" onclick="openTab(event, 'joinery')">Joinery Items</button>
-            <button class="tablinks" onclick="openTab(event, 'toy')">Craft & Toy Parts</button>
-            <button class="tablinks" onclick="openTab(event, 'mouldings')">Mouldings</button>
-            <button class="tablinks" onclick="openTab(event, 'shims')">Shims</button>
+            <button class="tablinks" onclick="openTab(event, 'merchandisers')" id="merchButton">Merchandisers</button>
+            <button class="tablinks" onclick="openTab(event, 'packaging')" id="packButton">Packaging Programs</button>
+            <button class="tablinks" onclick="openTab(event, 'dowels')" id="dowelButton">Hardwood Dowels and Squares</button>
+            <button class="tablinks" onclick="openTab(event, 'buttons')" id="plugButton">Buttons & Plugs</button>
+            <button class="tablinks" onclick="openTab(event, 'joinery')" id="joinButton">Joinery Items</button>
+            <button class="tablinks" onclick="openTab(event, 'toy')" id="toysButton">Craft & Toy Parts</button>
+            <button class="tablinks" onclick="openTab(event, 'mouldings')" id="mouldButton">Mouldings</button>
+            <button class="tablinks" onclick="openTab(event, 'shims')" id="shimButton">Shims</button>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-12">
-            <button class="tablinks" onclick="openTab(event, 'abrasives')">Abrasives</button>
-            <button class="tablinks" onclick="openTab(event, 'pegs')">Pegs</button>
-            <button class="tablinks" onclick="openTab(event, 'knobs')">Knobs</button>
-            <button class="tablinks" onclick="openTab(event, 'finials')">Finials</button>
-            <button class="tablinks" onclick="openTab(event, 'spindles')">Spindles</button>
-            <button class="tablinks" onclick="openTab(event, 'thread')">Thread Racks</button>
-            <button class="tablinks" onclick="openTab(event, 'quilt')">Quilt Hangers</button>
-            <button class="tablinks" onclick="openTab(event, 'handles')">Replacement Handles</button>
-            <button class="tablinks" onclick="openTab(event, 'misc')">Miscellaneous</button>
+            <button class="tablinks" onclick="openTab(event, 'abrasives')" id="abraButton">Abrasives</button>
+            <button class="tablinks" onclick="openTab(event, 'pegs')" id="pegButton">Pegs</button>
+            <button class="tablinks" onclick="openTab(event, 'knobs')" id="knobButton">Knobs</button>
+            <button class="tablinks" onclick="openTab(event, 'finials')" id="finButton">Finials</button>
+            <button class="tablinks" onclick="openTab(event, 'spindles')" id="spinButton">Spindles</button>
+            <button class="tablinks" onclick="openTab(event, 'thread')" id="threadrackButton">Thread Racks</button>
+            <button class="tablinks" onclick="openTab(event, 'quilt')" id="quilthangerButton">Quilt Hangers</button>
+            <button class="tablinks" onclick="openTab(event, 'handles')" id="handleButton">Replacement Handles</button>
+            <button class="tablinks" onclick="openTab(event, 'misc')" id="miscellButton">Miscellaneous</button>
             </div>
           </div>
         
@@ -96,35 +96,35 @@
             <div class="col-lg-9 col-xs-12 tabcontent text-center" id="allproducts">
               <div class="row">
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="clicky()">
+                  <button class="imglinks merch" onclick="clicky(event)">
                   <img src="images/products/merchandisers/woodrackmerch.jpg" class="img-responsive" />
                   Merchandisers</button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'packaging')">
+                  <button class="imglinks pack" onclick="clicky(event)">
                   <img src="images/products/packaging/retailbags.jpg" class="img-responsive" />
                   Packaging Programs</button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'dowels')">
+                  <button class="imglinks dowel" onclick="clicky(event)">
                     <img src="images/products/dowels/dowels.jpg" class="img-responsive" />
                     Dowels & Squares</button>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'buttons')">
+                  <button class="imglinks plug" onclick="clicky(event)">
                     <img src="images/products/buttons/buttons.jpg" class="img-responsive" />
                     Buttons & Plugs</button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'joinery')">
+                  <button class="imglinks join" onclick="clicky(event)">
                     <img src="images/products/joinery/mgdowelpins.jpg" class="img-responsive" />
                     Joinery Items
                   </button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'toy')">
+                  <button class="imglinks toys" onclick="clicky(event)">
                     <img src="images/products/craft-toy/toywheels.jpg" class="img-responsive" />
                     Craft & Toy Parts
                   </button>
@@ -132,19 +132,19 @@
               </div>
               <div class="row">
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'mouldings')">
+                  <button class="imglinks mould" onclick="clicky(event)">
                     <img src="images/products/mouldings/mouldingchartbottom.jpg" class="img-responsive" />
                     Mouldings
                   </button>
                 </div>
                 <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'shims')">
+                    <button class="imglinks shim" onclick="clicky(event)">
                       <img src="images/products/misc/shims.jpg" class="img-responsive" />
                       Shims
                     </button>
                   </div>
                   <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'abrasives')">
+                    <button class="imglinks abra" onclick="clicky(event)">
                       <img src="images/products/abrasives/hooknloop.jpg" class="img-responsive" />
                       Abrasives
                     </button>
@@ -152,19 +152,19 @@
               </div>
               <div class="row">
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'pegs')">
+                  <button class="imglinks peg" onclick="clicky(event)">
                     <img src="images/products/pegs/mugpegs.jpg" class="img-responsive" />
                     Pegs
                   </button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'knobs')">
+                  <button class="imglinks knob" onclick="clicky(event)">
                     <img src="images/products/wood-knobs/mushroomknobs.jpg" class="img-responsive" />
                     Knobs
                   </button>
                 </div>
                 <div class="col-sm-4">
-                  <button class="imglinks" onclick="openTab(event, 'finials')">
+                  <button class="imglinks fin" onclick="clicky(event)">
                     <img src="images/products/misc/finials.jpg" class="img-responsive" />
                     Finials
                   </button>
@@ -172,19 +172,19 @@
               </div>
               <div class="row">
                 <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'spindles')">
+                    <button class="imglinks spin" onclick="clicky(event)">
                       <img src="images/products/spindles/s8spindle.jpg" class="img-responsive" />
                       Spindles
                     </button>
                   </div>
                 <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'thread')">
+                    <button class="imglinks threadrack" onclick="clicky(event)">
                       <img src="images/products/thread-racks/minimack.jpg" class="img-responsive" />
                       Thread Racks
                     </button>
                   </div>
                   <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'quilt')">
+                    <button class="imglinks quilthanger" onclick="clicky(event)">
                       <img src="images/products/quilt-hangers/quilthanger.jpg" class="img-responsive" />
                       Quilt Hangers
                     </button>
@@ -192,13 +192,13 @@
               </div>
               <div class="row">
                   <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'handles')">
+                    <button class="imglinks handle" onclick="clicky(event)">
                       <img src="images/products/misc/handles.jpg" class="img-responsive" />
                       Replacement Handles
                     </button>
                   </div>
                   <div class="col-sm-4">
-                    <button class="imglinks" onclick="openTab(event, 'misc')">
+                    <button class="imglinks miscell" onclick="clicky(event)">
                       <img src="images/products/misc/caplets.jpg" class="img-responsive" />
                       Miscellaneous
                     </button>
@@ -1097,6 +1097,44 @@
             }
             /*Set first tab to active on pageload*/
             document.getElementById("defaultOpen").click();
+
+            function clicky(evt) {
+              if (evt.currentTarget.classList.contains('merch')) {
+                document.getElementById('merchButton').click();
+              } else if (evt.currentTarget.classList.contains('pack')) {
+                document.getElementById('packButton').click();
+              } else if (evt.currentTarget.classList.contains('dowel')) {
+                document.getElementById('dowelButton').click();
+              } else if (evt.currentTarget.classList.contains('plug')) {
+                document.getElementById('plugButton').click();
+              } else if (evt.currentTarget.classList.contains('join')) {
+                document.getElementById('joinButton').click();
+              } else if (evt.currentTarget.classList.contains('toys')) {
+                document.getElementById('toysButton').click();
+              } else if (evt.currentTarget.classList.contains('mould')) {
+                document.getElementById('mouldButton').click();
+              } else if (evt.currentTarget.classList.contains('shim')) {
+                document.getElementById('shimButton').click();
+              } else if (evt.currentTarget.classList.contains('abra')) {
+                document.getElementById('abraButton').click();
+              } else if (evt.currentTarget.classList.contains('peg')) {
+                document.getElementById('pegButton').click();
+              } else if (evt.currentTarget.classList.contains('knob')) {
+                document.getElementById('knobButton').click();
+              } else if (evt.currentTarget.classList.contains('fin')) {
+                document.getElementById('finButton').click();
+              } else if (evt.currentTarget.classList.contains('spin')) {
+                document.getElementById('spinButton').click();
+              } else if (evt.currentTarget.classList.contains('threadrack')) {
+                document.getElementById('threadrackButton').click();
+              } else if (evt.currentTarget.classList.contains('quilthanger')) {
+                document.getElementById('quilthangerButton').click();
+              } else if (evt.currentTarget.classList.contains('handle')) {
+                document.getElementById('handleButton').click();
+              } else if (evt.currentTarget.classList.contains('miscell')) {
+                document.getElementById('miscellButton').click();
+              }
+            }
 </script>      
 </body>
 </html>
