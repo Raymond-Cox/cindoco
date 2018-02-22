@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Cindoco Wood Products Co.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
@@ -15,1127 +16,1653 @@
 <body>
   <!--Side navbar -->
   <div class="container-fluid" id="nav">
-      <div class="row">
-          <div class="col-lg-2 col-sm-12 navbar col-xs-12">
-              <div class="col-lg-12 col-sm-2 col-xs-12" id="brand">
-                     <img src="images/brand.jpg" class="img-responsive" />
-              </div>
-  <!--Menu Container-->
-              <div class="col-lg-12 col-sm-8 col-xs-12">
-              <div class="col-lg-12 col-sm-6 col-xs-12" id="menu1">
-                <ul>
-                  <li><a href="index.html">HOME</a></li>
-                  <li class="active"><a href="products.html">PRODUCTS</a></li>
-                  <li><a href="specialorders.html">SPECIAL ORDERS</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-12 col-sm-6 col-xs-12" id="menu2">
-                <ul>
-                  <li><a href="contact.html">CONTACT US</a></li>
-                  <li><a href="http://www.store.cincinnatidowel.com" target="_blank">ONLINE STORE</a></li>
-                  <li><a href="retaillocations.html">RETAIL LOCATIONS</a></li>
-                </ul>
-              </div>
-              </div>
-  <!--End of Menu-->
-              
-          <div class="wrapper col-lg-12 col-sm-2 col-xs-12 text-center" id="footer">
-            <div class="row">
-              <div class="col-xs-4 socialmedia">
-                <a href="https://www.facebook.com/CindocoWood/" target="_blank"><i class="fa fa-facebook"></i></a>
-              </div>
-              <div class="col-xs-4 socialmedia">
-                <a href="https://www.instagram.com/cindocowood/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-              </div>
-              <div class="col-xs-4 socialmedia">
-                <a href="https://twitter.com/cindoco" target="_blank"><i class="fa fa-twitter"></i></a>
-              </div>
+    <div class="row">
+      <div class="col-lg-2 col-sm-12 navbar col-xs-12">
+        <div class="col-lg-12 col-sm-2 col-xs-12" id="brand">
+          <img src="images/brand.jpg" class="img-responsive" />
+        </div>
+        <!--Menu Container-->
+        <div class="col-lg-12 col-sm-8 col-xs-12">
+          <div class="col-lg-12 col-sm-6 col-xs-12" id="menu1">
+            <ul>
+              <li>
+                <a href="index.html">HOME</a>
+              </li>
+              <li class="active">
+                <a href="products.html">PRODUCTS</a>
+              </li>
+              <li>
+                <a href="specialorders.html">SPECIAL ORDERS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-12 col-sm-6 col-xs-12" id="menu2">
+            <ul>
+              <li>
+                <a href="contact.html">CONTACT US</a>
+              </li>
+              <li>
+                <a href="http://www.store.cincinnatidowel.com" target="_blank">ONLINE STORE</a>
+              </li>
+              <li>
+                <a href="retaillocations.html">RETAIL LOCATIONS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--End of Menu-->
+
+        <div class="wrapper col-lg-12 col-sm-2 col-xs-12 text-center" id="footer">
+          <div class="row">
+            <div class="col-xs-4 socialmedia">
+              <a href="https://www.facebook.com/CindocoWood/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div>
+            <div class="col-xs-4 socialmedia">
+              <a href="https://www.instagram.com/cindocowood/?hl=en" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-xs-4 socialmedia">
+              <a href="https://twitter.com/cindoco" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
-  
-<!--header-->
-  <div class="container-fluid" id="header">
-      <div class="row">
-<!--Row 1-->      
-        <div class="col-lg-8 col-lg-offset-3 col-xs-12" id="content">
-          <img src="images/productsherohighres.jpg" class="img-responsive"/>
-          <h2 class="specialheader">Products</h2>
 
-<!--Tabbed Area -->
-      <div class="container-fluid" id="tabbedarea">
-        <div class="row">
-          <div class=" col-xs-12 col-lg-3 tab">
-            <div class="col-xs-12 col-sm-6 col-lg-12">
-            <button class="tablinks" onclick="openTab(event, 'allproducts')" id="defaultOpen">All Products</button>
-            <button class="tablinks" onclick="openTab(event, 'merchandisers')" id="merchButton">Merchandisers</button>
-            <button class="tablinks" onclick="openTab(event, 'packaging')" id="packButton">Packaging Programs</button>
-            <button class="tablinks" onclick="openTab(event, 'dowels')" id="dowelButton">Hardwood Dowels and Squares</button>
-            <button class="tablinks" onclick="openTab(event, 'buttons')" id="plugButton">Buttons & Plugs</button>
-            <button class="tablinks" onclick="openTab(event, 'joinery')" id="joinButton">Joinery Items</button>
-            <button class="tablinks" onclick="openTab(event, 'toy')" id="toysButton">Craft & Toy Parts</button>
-            <button class="tablinks" onclick="openTab(event, 'mouldings')" id="mouldButton">Mouldings</button>
-            <button class="tablinks" onclick="openTab(event, 'shims')" id="shimButton">Shims</button>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-12">
-            <button class="tablinks" onclick="openTab(event, 'abrasives')" id="abraButton">Abrasives</button>
-            <button class="tablinks" onclick="openTab(event, 'pegs')" id="pegButton">Pegs</button>
-            <button class="tablinks" onclick="openTab(event, 'knobs')" id="knobButton">Knobs</button>
-            <button class="tablinks" onclick="openTab(event, 'finials')" id="finButton">Finials</button>
-            <button class="tablinks" onclick="openTab(event, 'spindles')" id="spinButton">Spindles</button>
-            <button class="tablinks" onclick="openTab(event, 'thread')" id="threadrackButton">Thread Racks</button>
-            <button class="tablinks" onclick="openTab(event, 'quilt')" id="quilthangerButton">Quilt Hangers</button>
-            <button class="tablinks" onclick="openTab(event, 'handles')" id="handleButton">Replacement Handles</button>
-            <button class="tablinks" onclick="openTab(event, 'misc')" id="miscellButton">Miscellaneous</button>
-            </div>
-          </div>
-        
-          <div class="container-fluid" id="productlist">
-<!--All products start-->            
-            <div class="col-lg-9 col-xs-12 tabcontent text-center" id="allproducts">
-              <div class="row">
-                <div class="col-sm-4">
-                  <button class="imglinks merch" onclick="clicky(event)">
-                  <img src="images/products/merchandisers/woodrackmerch.jpg" class="img-responsive" />
-                  Merchandisers</button>
-                </div>
-                <div class="col-sm-4">
-                  <button class="imglinks pack" onclick="clicky(event)">
-                  <img src="images/products/packaging/retailbags.jpg" class="img-responsive" />
-                  Packaging Programs</button>
-                </div>
-                <div class="col-sm-4">
-                  <button class="imglinks dowel" onclick="clicky(event)">
-                    <img src="images/products/dowels/dowels.jpg" class="img-responsive" />
-                    Dowels & Squares</button>
-                </div>
+  <!--header-->
+  <div class="container-fluid" id="header">
+    <div class="row">
+      <!--Row 1-->
+      <div class="col-lg-8 col-lg-offset-3 col-xs-12" id="content">
+        <img src="images/productsherohighres.jpg" class="img-responsive" />
+        <h2 class="specialheader">Products</h2>
+
+        <!--Tabbed Area -->
+        <div class="container-fluid" id="tabbedarea">
+          <div class="row">
+            <div class=" col-xs-12 col-lg-3 tab">
+              <div class="col-xs-12 col-sm-6 col-lg-12">
+                <button class="tablinks" onclick="openTab(event, 'allproducts')" id="defaultOpen">All Products</button>
+                <button class="tablinks" onclick="openTab(event, 'merchandisers')" id="merchButton">Merchandisers</button>
+                <button class="tablinks" onclick="openTab(event, 'packaging')" id="packButton">Packaging Programs</button>
+                <button class="tablinks" onclick="openTab(event, 'dowels')" id="dowelButton">Hardwood Dowels and Squares</button>
+                <button class="tablinks" onclick="openTab(event, 'buttons')" id="plugButton">Buttons & Plugs</button>
+                <button class="tablinks" onclick="openTab(event, 'joinery')" id="joinButton">Joinery Items</button>
+                <button class="tablinks" onclick="openTab(event, 'toy')" id="toysButton">Craft & Toy Parts</button>
+                <button class="tablinks" onclick="openTab(event, 'mouldings')" id="mouldButton">Mouldings</button>
+                <button class="tablinks" onclick="openTab(event, 'shims')" id="shimButton">Shims</button>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <button class="imglinks plug" onclick="clicky(event)">
-                    <img src="images/products/buttons/buttons.jpg" class="img-responsive" />
-                    Buttons & Plugs</button>
-                </div>
-                <div class="col-sm-4">
-                  <button class="imglinks join" onclick="clicky(event)">
-                    <img src="images/products/joinery/mgdowelpins.jpg" class="img-responsive" />
-                    Joinery Items
-                  </button>
-                </div>
-                <div class="col-sm-4">
-                  <button class="imglinks toys" onclick="clicky(event)">
-                    <img src="images/products/craft-toy/toywheels.jpg" class="img-responsive" />
-                    Craft & Toy Parts
-                  </button>
-                </div>
+              <div class="col-xs-12 col-sm-6 col-lg-12">
+                <button class="tablinks" onclick="openTab(event, 'abrasives')" id="abraButton">Abrasives</button>
+                <button class="tablinks" onclick="openTab(event, 'pegs')" id="pegButton">Pegs</button>
+                <button class="tablinks" onclick="openTab(event, 'knobs')" id="knobButton">Knobs</button>
+                <button class="tablinks" onclick="openTab(event, 'finials')" id="finButton">Finials</button>
+                <button class="tablinks" onclick="openTab(event, 'spindles')" id="spinButton">Spindles</button>
+                <button class="tablinks" onclick="openTab(event, 'thread')" id="threadrackButton">Thread Racks & Quilt Hangers</button>
+                <button class="tablinks" onclick="openTab(event, 'handles')" id="handleButton">Replacement Handles</button>
+                <button class="tablinks" onclick="openTab(event, 'misc')" id="miscellButton">Miscellaneous</button>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <button class="imglinks mould" onclick="clicky(event)">
-                    <img src="images/products/mouldings/mouldingchartbottom.jpg" class="img-responsive" />
-                    Mouldings
-                  </button>
+            </div>
+
+            <div class="container-fluid" id="productlist">
+              <!--All products start-->
+              <div class="col-lg-9 col-xs-12 tabcontent text-center" id="allproducts">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks merch" onclick="clicky(event)">
+                      <img src="images/products/merchandisers/woodrackmerch.jpg" class="img-responsive" /> Merchandisers
+                    </button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="imglinks pack" onclick="clicky(event)">
+                      <img src="images/products/packaging/retailbags.jpg" class="img-responsive" /> Packaging Programs</button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="imglinks dowel" onclick="clicky(event)">
+                      <img src="images/products/dowels/dowels.jpg" class="img-responsive" /> Dowels & Squares</button>
+                  </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks plug" onclick="clicky(event)">
+                      <img src="images/products/buttons/buttons.jpg" class="img-responsive" /> Buttons & Plugs</button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="imglinks join" onclick="clicky(event)">
+                      <img src="images/products/joinery/mgdowelpins.jpg" class="img-responsive" /> Joinery Items
+                    </button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="imglinks toys" onclick="clicky(event)">
+                      <img src="images/products/craft-toy/toywheels.jpg" class="img-responsive" /> Craft & Toy Parts
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks mould" onclick="clicky(event)">
+                      <img src="images/products/mouldings/mouldingchartbottom.jpg" class="img-responsive" /> Mouldings
+                    </button>
+                  </div>
+                  <div class="col-sm-4">
                     <button class="imglinks shim" onclick="clicky(event)">
-                      <img src="images/products/misc/shims.jpg" class="img-responsive" />
-                      Shims
+                      <img src="images/products/misc/shims.jpg" class="img-responsive" /> Shims
                     </button>
                   </div>
                   <div class="col-sm-4">
                     <button class="imglinks abra" onclick="clicky(event)">
-                      <img src="images/products/abrasives/hooknloop.jpg" class="img-responsive" />
-                      Abrasives
+                      <img src="images/products/abrasives/hooknloop.jpg" class="img-responsive" /> Abrasives
                     </button>
                   </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <button class="imglinks peg" onclick="clicky(event)">
-                    <img src="images/products/pegs/mugpegs.jpg" class="img-responsive" />
-                    Pegs
-                  </button>
                 </div>
-                <div class="col-sm-4">
-                  <button class="imglinks knob" onclick="clicky(event)">
-                    <img src="images/products/wood-knobs/mushroomknobs.jpg" class="img-responsive" />
-                    Knobs
-                  </button>
-                </div>
-                <div class="col-sm-4">
-                  <button class="imglinks fin" onclick="clicky(event)">
-                    <img src="images/products/misc/finials.jpg" class="img-responsive" />
-                    Finials
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                    <button class="imglinks spin" onclick="clicky(event)">
-                      <img src="images/products/spindles/s8spindle.jpg" class="img-responsive" />
-                      Spindles
-                    </button>
-                  </div>
-                <div class="col-sm-4">
-                    <button class="imglinks threadrack" onclick="clicky(event)">
-                      <img src="images/products/thread-racks/minimack.JPG" class="img-responsive" />
-                      Thread Racks
+                <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks peg" onclick="clicky(event)">
+                      <img src="images/products/pegs/mugpegs.jpg" class="img-responsive" /> Pegs
                     </button>
                   </div>
                   <div class="col-sm-4">
-                    <button class="imglinks quilthanger" onclick="clicky(event)">
-                      <img src="images/products/quilt-hangers/quilthanger.jpg" class="img-responsive" />
-                      Quilt Hangers
+                    <button class="imglinks knob" onclick="clicky(event)">
+                      <img src="images/products/wood-knobs/mushroomknobs.jpg" class="img-responsive" /> Knobs
                     </button>
                   </div>
-              </div>
-              <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks fin" onclick="clicky(event)">
+                      <img src="images/products/misc/finials.jpg" class="img-responsive" /> Finials
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <button class="imglinks spin" onclick="clicky(event)">
+                      <img src="images/products/spindles/s8spindle.jpg" class="img-responsive" /> Spindles
+                    </button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="imglinks threadrack" onclick="clicky(event)">
+                      <img src="images/products/thread-racks/minimack.JPG" class="img-responsive" /> Thread Racks & Quilt Hangers
+                    </button>
+                  </div>
                   <div class="col-sm-4">
                     <button class="imglinks handle" onclick="clicky(event)">
-                      <img src="images/products/misc/handles.jpg" class="img-responsive" />
-                      Replacement Handles
+                      <img src="images/products/misc/handles.jpg" class="img-responsive" /> Replacement Handles
                     </button>
                   </div>
+                </div>
+                <div class="row">
                   <div class="col-sm-4">
                     <button class="imglinks miscell" onclick="clicky(event)">
-                      <img src="images/products/misc/caplets.jpg" class="img-responsive" />
-                      Miscellaneous
+                      <img src="images/products/misc/caplets.jpg" class="img-responsive" /> Miscellaneous
                     </button>
                   </div>
+                </div>
               </div>
-            </div>
-<!--Merchandisers Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="merchandisers">
-<!-- Header -->
+              <!--Merchandisers Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="merchandisers">
+                <!-- Header -->
                 <h2 class="shadowheader">MERCHANDISERS</h2>
-              
-<!-- Top Row -->
-              <div class="col-sm-6">
+
+                <!-- Top Row -->
+                <div class="col-sm-6">
                   <img src="images/products/merchandisers/woodrackmerch.jpg" class="img-responsive" />
-                    <p>Wood Dowel Display Rack with Peg Board</p>
+                  <p>Wood Dowel Display Rack with Peg Board</p>
                 </div>
 
-              <div class="col-sm-6">
+                <div class="col-sm-6">
                   <img src="images/products/merchandisers/wirerackmerch.jpg" class="img-responsive" />
                   <p>Wire Dowel Display Rack with Peg Board</p>
-              </div>
-              
-<!-- Second Row -->
-              <div class="col-sm-6">
-                  <img src="images/products/merchandisers/woodrackdowel.jpg" class="img-responsive" />
-                    <p>Wood Dowel Display Rack</p>
                 </div>
 
-              <div class="col-sm-6">
+                <!-- Second Row -->
+                <div class="col-sm-6">
+                  <img src="images/products/merchandisers/woodrackdowel.jpg" class="img-responsive" />
+                  <p>Wood Dowel Display Rack</p>
+                </div>
+
+                <div class="col-sm-6">
                   <img src="images/products/merchandisers/wirerackdowel.jpg" class="img-responsive" />
                   <p>Wire Dowel Display Rack</p>
-              </div>
-
-<!-- Third Row -->
-              <div class="col-sm-6">   
-                    <h5 class="quote">All of our display racks come with a header sign and the necessary hardware to construct</h5>
                 </div>
 
-              <div class="col-sm-6">
+                <!-- Third Row -->
+                <div class="col-sm-6">
+                  <h5 class="quote">All of our display racks come with a header sign and the necessary hardware to construct</h5>
+                </div>
+
+                <div class="col-sm-6">
                   <img src="images/products/merchandisers/mouldingrack.jpg" class="img-responsive" />
                   <p>Moulding Display Rack</p>
+                </div>
               </div>
-            </div>
-          
-<!--Packaging Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="packaging">
-<!-- Header -->
-              <h2 class="shadowheader">PACKAGING</h2>
-              <h4 class="green"><i class="fa fa-globe"></i> Now offering earth friendly bio-degradable packaging! <i class="fa fa-envira"></i></h4>
-              
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <img src="images/products/packaging/retailbags.jpg" class="img-responsive" />
+
+              <!--Packaging Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="packaging">
+                <!-- Header -->
+                <h2 class="shadowheader">PACKAGING</h2>
+                <h4 class="green">
+                  <i class="fa fa-globe"></i> Now offering earth friendly bio-degradable packaging!
+                  <i class="fa fa-envira"></i>
+                </h4>
+
+                <!-- Top Row -->
+                <div class="col-sm-6">
+                  <img src="images/products/packaging/retailbags.jpg" class="img-responsive" />
                   <p>Retail Bags with UPC</p>
-              </div>
+                </div>
 
-              <div class="col-sm-6">
-                <img src="images/products/packaging/bulkbags.jpg" class="img-responsive" />
-                <p>Custom Bags</p>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/woodworking-kits">
-                  <img src="images/products/packaging/boxkits.jpg" class="img-responsive" /></a>
+                <div class="col-sm-6">
+                  <img src="images/products/packaging/bulkbags.jpg" class="img-responsive" />
+                  <p>Custom Bags</p>
+                </div>
+
+                <!-- Second Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/woodworking-kits">
+                    <img src="images/products/packaging/boxkits.jpg" class="img-responsive" />
+                  </a>
                   <p>Woodworker Kits</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <img src="images/products/packaging/binbox.jpg" class="img-responsive" />
+                  <p>Retail Bin Boxes</p>
+                </div>
               </div>
 
-              <div class="col-sm-6">
-                <img src="images/products/packaging/binbox.jpg" class="img-responsive" />
-                <p>Retail Bin Boxes</p>
-              </div>
-            </div>
+              <!-- Dowels Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="dowels">
+                <!-- Header -->
+                <h2 class="shadowheader">DOWELS</h2>
 
-<!-- Dowels Start -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="dowels">
-<!-- Header -->
-              <h2 class="shadowheader">DOWELS</h2>
-              
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/dowels">
-                  <img src="images/products/dowels/dowels.jpg" class="img-responsive" /></a>
-                  <p>Hardwood Dowels</p>
-                  <h4 class="description blue">Economy hardwood dowels in Birch and other hardwoods</h4>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/dowels">
-                  <img src="images/products/dowels/specialtydowels.jpg" class="img-responsive" /></a>
-                <p>Specialty Dowels</p>
-                <h4 class="description blue">Available in assorted sizes and species; not limited 
-                  to Poplar, Oak, Maple, Beech, Walnut, and Mahogany</h4>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/dowels">
-                  <img src="images/products/dowels/colorcodeddowels.jpg" class="img-responsive" /></a>
-                  <p>Color Coded Dowels</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/hardwood-squares">
-                  <img src="images/products/dowels/colorcodedsquares.jpg" class="img-responsive" /></a>
-                <p>Color Coded Hardwood Squares</p>
-              </div>
-
-<!-- Third Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/dowels">
-                  <img src="images/products/dowels/upcdowels.jpg" class="img-responsive" /></a>
-                  <p>UPC Color Coded Dowels</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/12_-Handi-Craft-Dowels/649">
-                  <img src="images/products/dowels/handicraftdowels.jpg" class="img-responsive" /></a>
-                <p>12" Handi Craft Dowels</p>
-              </div>
-            </div>
-
-<!-- Buttons -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="buttons">
-<!-- Header -->
-              <h2 class="shadowheader">BUTTONS & PLUGS</h2>
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/wood-buttons">
-                <img src="images/products/buttons/buttons.jpg" class="img-responsive" /></a>
-                <p>Mushroom Buttons</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/side-grain-plugs">
-                <img src="images/products/buttons/sidegrainplugs.jpg" class="img-responsive" /></a>
-                <p>Side Grain Furniture Plugs</p>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/flathead-screwhole-plugs">
-                  <img src="images/products/buttons/flatheadplugs.jpg" class="img-responsive" /></a>
-                  <p>Flathead Screwhole Plugs</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/roundhead-screwhole-plugs">
-                  <img src="images/products/buttons/roundheadplugs.jpg" class="img-responsive" /></a>
-                <p>Roundhead Screwhole Plugs</p>
-              </div>              
-            </div>
-
-<!--Joinery Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="joinery">
-<!-- Header -->
-              <h2 class="shadowheader">JOINERY</h2>
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Multi--Groove-Dowel-Pins/672">
-                  <img src="images/products/joinery/mgdowelpins.jpg" class="img-responsive" /></a>
-                  <p>Fluted Dowel Pins</p>
+                <!-- Top Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Economy Dowels</h3>
+                    <h6>Hardwood dowels available in Birch and other mixed species.
+                      <br>
+                      <br>
+                      <span class="italicize">(Also available color coded and UPC labeled)</span>
+                      <br>
+                      <br> <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Diameters: 1/8" to 1-1/4"</span>
+                      </li>
+                      <li>
+                        <span>Lengths: 12" to 72"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/dowels">
+                      <img src="images/products/dowels/dowels.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Second Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Specialty Dowels</h3>
+                    <h6>Specialty dowels available in Oak, Maple, Cherry, Walnut, Poplar, and Mahogany.
+                      <br>
+                      <br>
+                       <span class="italicize">(Also available color coded and UPC labeled)</span>
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Diameters: 1/4" to 2"</span>
+                      </li>
+                      <li>
+                        <span>Lengths: 36" to 96"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/dowels">
+                      <img src="images/products/dowels/specialtydowels.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Square Dowels</h3>
+                    <h6>Hardwood squares available in Oak, Walnut, Maple, Cherry, and other mixed species.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Sizes: 1/8" to 1"</span>
+                      </li>
+                      <li>
+                        <span>Length: 36"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/hardwood-squares">
+                      <img src="images/products/dowels/squaredowels.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Spiral-Groove-Dowel-Pins/673">
-                  <img src="images/products/joinery/sgdowelpins.jpg" class="img-responsive" /></a>
-                <p>Spiral Groove Dowel Pins</p>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Pre-Glued-Dowel-Pins/744">
-                  <img src="images/products/joinery/mgpregluedpins.jpg" class="img-responsive" /></a>
-                  <p>Pre-Glued Fluted Dowel Pins</p>
+              <!-- Buttons -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="buttons">
+                <!-- Header -->
+                <h2 class="shadowheader">BUTTONS & PLUGS</h2>
+                <!-- Top Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Flat Head</h3>
+                      <h6>Flat head plugs available in all species.
+                        <br>
+                        <br>
+                        <span class="bold">Available Sizes:</span>
+                      </h6>
+                    <ul>
+                      <li>
+                        <span>1/4" to 1"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-12">
+                    <a href="http://store.cincinnatidowel.com/flathead-screwhole-plugs">
+                      <img src="images/products/buttons/flatheadplugs.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Second Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Round Head</h3>
+                    <h6>Round head plugs available in all species.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>1/4" to 1"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-12">
+                    <a href="http://store.cincinnatidowel.com/roundhead-screwhole-plugs">
+                      <img src="images/products/buttons/roundheadplugs.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Buttons</h3>
+                    <h6>Mushroom buttons available in all species.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>1/4" to 1"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-12">
+                    <a href="http://store.cincinnatidowel.com/wood-buttons">
+                      <img src="images/products/buttons/buttons.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Fourth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Side Grain</h3>
+                    <h6>Side grain plugs available in all species.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>3/8" to 1"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-12">
+                    <a href="http://store.cincinnatidowel.com/side-grain-plugs">
+                      <img src="images/products/buttons/sidegrainplugs.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Fifth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Floor Plugs</h3>
+                    <h6>Floor plugs available in all species. 
+                      <br>
+                      <br>
+                      <span class="italicize">(Also available in side-grained or end-grained)</span>
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>1/2" to 3/4"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-plugs">
+                      <img src="images/products/buttons/floorplugs.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Pre-Glued-Dowel-Pins/744">
-                  <img src="images/products/joinery/sgpregluedpins.jpg" class="img-responsive" /></a>
-                <p>Pre-glued Spiral Groove Dowel Pins</p>
+              <!--Joinery Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="joinery">
+                <!-- Header -->
+                <h2 class="shadowheader">JOINERY</h2>
+                <!-- Top Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Dowel Pins</h3>
+                    <h6>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Diameters: 1/4" to 1/2"</span>
+                      </li>
+                      <li>
+                        <span>Lengths: 1" to 4-1/2"</span>
+                      </li>
+                      <li>
+                        <span>Available: Fluted or Spiral Grooved</span>
+                      </li>
+                    </ul>
+                    <h6><span class="italicize">(Metric sizes also available)</span></h6>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-12">
+                    <div class="col-sm-12 col-xs-6">
+                      <a href="http://store.cincinnatidowel.com/dowel-pins">
+                        <img src="images/products/joinery/flutedpin.png" class="img-responsive" />
+                      </a>
+                    </div>
+                    <div class="col-sm-12 col-xs-6">
+                      <a href="http://store.cincinnatidowel.com/dowel-pins">
+                        <img src="images/products/joinery/spiralpin.png" class="img-responsive" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!-- Second Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Pre-Glued Dowel Pins</h3>
+                    <h6>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Diameters: 1/4" to 1/2"</span>
+                      </li>
+                      <li>
+                        <span>Lengths: 1" to 4-1/2"</span>
+                      </li>
+                    </ul>
+                    <h6><span class="italicize">(Metric sizes also available)</span></h6>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/Pre-Glued-Dowel-Pins/744">
+                      <img src="images/products/joinery/pregluedpin.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Biscuits</h3>
+                    <h6>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Sizes: #0, #10, #20</span>
+                      </li>
+                    </ul>
+                    <h6><span class="italicize">(Ask about our Biscuit Slot Glue Bottle)</span></h6>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/joinery-biscuits">
+                      <img src="images/products/joinery/biscuits.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
-<!-- Third Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Lamello-Biscuits/650">
-                  <img src="images/products/joinery/lamellobiscuits.jpg" class="img-responsive" /></a>
-                  <p>Lamello Joinery Biscuits</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Economy-Joinery-Biscuits/651">
-                  <img src="images/products/joinery/plywoodbiscuits.jpg" class="img-responsive" /></a>
-                <p>Plywood Joinery Biscuits</p>
-              </div>
-            
-<!-- Fourth Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Table-Pins----Country-Style/806">
-                  <img src="images/products/joinery/tablepins.jpg" class="img-responsive" /></a>
-                  <p>Table Pins</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/tenons">
-                  <img src="images/products/joinery/tuffertenons.jpg" class="img-responsive" /></a>
-                <p>Loose Tenons</p>
-              </div>              
-            </div>
-
-<!-- Toy Start -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="toy">
-<!-- Header -->
-              <h2 class="shadowheader">CRAFT & TOY PARTS</h2>
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/closet-pole-sockets"><img src="images/products/craft-toy/polesockets.jpg" 
-                  class="img-responsive" /></a>
+              <!-- Toy Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="toy">
+                <!-- Header -->
+                <h2 class="shadowheader">CRAFT & TOY PARTS</h2>
+                <!-- Top Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/closet-pole-sockets">
+                    <img src="images/products/craft-toy/polesockets.jpg" class="img-responsive" />
+                  </a>
                   <p>Closet Pole Sockets</p>
-              </div>
+                </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/wooden-pegs">
-                  <img src="images/products/craft-toy/pegs.jpg" class="img-responsive" /></a>
-                <p>Shaker Pegs and Mug Pegs</p>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/wooden-toy-wheels">
-                  <img src="images/products/craft-toy/toywheels.jpg" class="img-responsive" /></a>
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/wooden-pegs">
+                    <img src="images/products/craft-toy/pegs.jpg" class="img-responsive" />
+                  </a>
+                  <p>Shaker Pegs and Mug Pegs</p>
+                </div>
+
+                <!-- Second Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/wooden-toy-wheels">
+                    <img src="images/products/craft-toy/toywheels.jpg" class="img-responsive" />
+                  </a>
                   <p>Toy Wheels</p>
-              </div>
+                </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/axle-pegs">
-                  <img src="images/products/craft-toy/axlepegs.jpg" class="img-responsive" /></a>
-                <p>Axle Pegs</p>
-              </div>
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/axle-pegs">
+                    <img src="images/products/craft-toy/axlepegs.jpg" class="img-responsive" />
+                  </a>
+                  <p>Axle Pegs</p>
+                </div>
 
-<!-- Third Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/wood-balls">
-                  <img src="images/products/craft-toy/hardwoodballs.jpg" class="img-responsive" /></a>
+                <!-- Third Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/wood-balls">
+                    <img src="images/products/craft-toy/hardwoodballs.jpg" class="img-responsive" />
+                  </a>
                   <p>Hardwood Balls</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/wood-spindles">
+                    <img src="images/products/craft-toy/spindle.jpg" class="img-responsive" />
+                  </a>
+                  <p>Spindles</p>
+                </div>
               </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/wood-spindles">
-                  <img src="images/products/craft-toy/spindle.jpg" class="img-responsive" /></a>
-                <p>Spindles</p>
-              </div>
-            </div>
+              <!-- Mouldings start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="mouldings">
+                <!-- Header -->
+                <h2 class="shadowheader">MOULDINGS</h2>
+                <!-- Top Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">7-3/8" Wood Shims - 200A</h3>
+                    <h6>Premium, kiln-dried, shims in a convenient retail package.
+                      <br>
+                      <br>
+                      <span class="bold">Packaging:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Shrink wrapped</span>
+                      </li>
+                      <li>
+                        <span>14 Shims/Pack</span>
+                      </li>
+                      <li>
+                        <span>30 Packs/Case</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/8_-Wood-Shim-Pack----14-Pack----200A/694">
+                      <img src="images/products/shims/200A.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
 
-<!-- Mouldings start -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="mouldings">
- <!-- Header -->
-              <h2 class="shadowheader">MOULDINGS</h2>
-<!-- Top Row -->
-              <div class="col-sm-6 col-xs-12 mouldingpad">
-                <img src="images/products/mouldings/mouldingchartleft.jpg" class="img-responsive" />
+                
               </div>
 
-              <div class="col-sm-6 col-xs-12 mouldingpad">
-                <img src="images/products/mouldings/mouldingchartright.jpg" class="img-responsive" />
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-8 col-sm-offset-2 col-xs-12 mouldingpad" id="mouldingbottom">
-                <img src="images/products/mouldings/mouldingchartbottom.jpg" class="img-responsive" />
-              </div>
-
-              <div class="col-xs-12 greybox">
-                <p>Cindoco Wood Products Company and its Craftwood Division offer a wide range of 
-                  pine mouldings which include: trim mouldings, frame mouldings, and general purpose 
-                  mouldings. Many of our 40+ profiles are available in both solid and finger jointed. 
-                  <a href="contact.html">Call us today for pricing</a> and don't forget to ask about discounts on entire 
-                  assortments!</p>
-              </div>             
-            </div>
-
-<!-- Glue Start -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="shims">
-  <!-- Header -->
+              <!-- Shims Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="shims">
+                <!-- Header -->
                 <h2 class="shadowheader">SHIMS</h2>
-  <!-- Top Row -->
-                <div class="col-sm-12">
-                 <img src="images/products/glue/jbweldad.jpg" class="img-responsive" id="ad" />
-                </div>
-  <!-- Second Row -->
-              <div class="row">
-                <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                  <h3>WoodWeld</h3>
-                  <h6>Fast setting two-part epoxy</h6>
-                  <ul>
-                    <li><span>Strength: 1800 PSI</span></li>
-                    <li><span>Set Time: 6 Minutes</span></li>
-                    <li><span>Cure Time: 1-3 Hours</span></li>
-                    <li><span>Cure Color: Light Tan</span></li>
-                    <li><span>Completely sandable and paintable once cured</span></li>
-                  </ul>
-                  <h6>Available in 2 oz. and 10 oz. packages</h6>
-                </div>
-                <div class="col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/WoodWeld-Twin-Tube/724">
-                      <img src="images/products/glue/woodweld.jpg" class="img-responsive" /></a>
-                </div>
-              </div>
-  <!-- Third Row -->
-              <div class="row">
-                <div class=" col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                  <h3>KwikWood Epoxy Putty Stick</h3>
-                  <h6>Wood filler</h6>
-                  <ul>
-                    <li><span>Strength: 900 PSI</span></li>
-                    <li><span>Set Time: 15-25 Minutes</span></li>
-                    <li><span>Cure Time: 1 Hour</span></li>
-                    <li><span>Cure Color: Light Tan</span></li>
-                    <li><span>Sands easily to a smooth finish</span></li>
-                    <li><span>Resists shrinking and cracking</span></li>
-                  </ul>
-                </div>
-                <div class="col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/KwikWood-Epoxy-Putty-Stick/725">
-                      <img src="images/products/glue/kwikwood.jpg" class="img-responsive" /></a>
-                </div>                
-              </div>
-  <!-- Fourth Row -->
-                <div class="row">              
-                  <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                    <h3>Wood Restore Repair Putty</h3>
-                    <h6>Everything you need to repair and restore damaged wood and 
-                      complete any other repair project</h6>
-                      <h6 class="quote"><a href="contact.html">Call us for more information!</a></h6>
-                      <a href="http://store.cincinnatidowel.com/Glue-&-Wood-Repair">Click here to view our 
-                      entire line of JB Weld Products!</a>
-                  </div>
-                  <div class="col-sm-6">
-                  <a href="http://store.cincinnatidowel.com/Wood-Repair-Putty/808">
-                    <img src="images/products/glue/woodrestore.jpg" class="img-responsive" /></a>
-                  </div>
-                </div>
-              </div>              
+                <!-- Top Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">7-3/8" Wood Shims - 200A</h3>
+                    <h6>Premium, kiln-dried, shims in a convenient retail package.
+                      <br>
+                      <br> <span class="bold">Packaging:</span>
+                    </h6>
 
-<!-- Abrasives Start -->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="abrasives">
-  <!-- Header -->
+                    <ul>
+                      <li>
+                        <span>Shrink wrapped</span>
+                      </li>
+                      <li>
+                        <span>14 Shims/Pack</span>
+                      </li>
+                      <li>
+                        <span>30 Packs/Case</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/8_-Wood-Shim-Pack----14-Pack----200A/694">
+                      <img src="images/products/shims/200A.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Second Row -->
+                <div class="row">
+                  <div class=" col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">7-3/8" Wood Shims - 200D</h3>
+                    <h6>Premium, kiln-dried, shims in a resealable carton.
+                      <br>
+                      <br><span class="bold">Packaging:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Resealable Carton</span>
+                      </li>
+                      <li>
+                        <span>56 Shims/Carton</span>
+                      </li>
+                      <li>
+                        <span>10 Cartons/Case</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/7--3_8_-Wood-Shim-Pack----56-Pack----200D/723">
+                      <img src="images/products/shims/200D.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">15" Wood Shims - 36015</h3>
+                    <h6>Premium cedar shims in a convenient retail package.
+                      <br>
+                      <br><span class="bold">Packaging:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Shrink wrapped</span>
+                      </li>
+                      <li>
+                        <span>36 Shims/Bundle</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/14--3_8_-Wood-Shim-Pack---Cedar/696">
+                      <img src="images/products/shims/36015.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Fourth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">8" Composite Shims - 200F</h3>
+                    <h6>Our composite shims packaged in convenient retail packages.
+                      <br>
+                      <br><span class="bold">Packaging:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Shrink wrapped</span>
+                      </li>
+                      <li>
+                        <span>8 Shims/Pack</span>
+                      </li>
+                      <li>
+                        <span>10 Packs/Case</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/8_-Composite-Shims----8-Pack----200F/819">
+                      <img src="images/products/shims/200F.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!--Fifth Row-->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">8" Composite Shims - 200E</h3>
+                    <h6>Premium waterproof & shrinkproof composite shims in a resealable carton.
+                      <br>
+                      <br><span class="bold">Packaging:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Resealable Carton</span>
+                      </li>
+                      <li>
+                        <span>32 Shims/Carton</span>
+                      </li>
+                      <li>
+                        <span>15 Cartons/Case</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/8_-Composite-Shims----32-Pack----200E/820">
+                      <img src="images/products/shims/200E.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Abrasives Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="abrasives">
+                <!-- Header -->
                 <h2 class="shadowheader">ABRASIVES</h2>
-  <!-- Top Row -->  
+                <!-- Top Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>New Wave Hi-Per Hook N' Loop Discs</h3>
-                  <ul>
-                    <li><span>Hook N' Loop backing which can be attached to interface pad or directly to
-                      conversion pad</span></li>
-                    <li><span>New Wave Discs are patented design which features wavy edge around 
-                      disc</span></li>
-                    <li><span>Can be used with dual action finishing sanders</span></li>
-                    <li><span>Wavy edge extends over edge of backup pad which protects it and makes 
-                      it last longer</span></li>
-                    <li><span>Ideal for finishing inside radius corners, coves, and molds</span></li>
-                  </ul>
-                  <h6>Available in 5" and 6" diameters, as well as 80G, 120G, and 180G</h6>
+                    <h3>New Wave Hi-Per Hook N' Loop Discs</h3>
+                    <ul>
+                      <li>
+                        <span>Hook N' Loop backing which can be attached to interface pad or directly to conversion pad</span>
+                      </li>
+                      <li>
+                        <span>New Wave Discs are patented design which features wavy edge around disc
+                        </span>
+                      </li>
+                      <li>
+                        <span>Can be used with dual action finishing sanders</span>
+                      </li>
+                      <li>
+                        <span>Wavy edge extends over edge of backup pad which protects it and makes it last longer</span>
+                      </li>
+                      <li>
+                        <span>Ideal for finishing inside radius corners, coves, and molds</span>
+                      </li>
+                    </ul>
+                    <h6>Available in 5" and 6" diameters, as well as 80G, 120G, and 180G</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
                     <a href="http://store.cincinnatidowel.com/sanding-discs-&-sheets">
-                      <img src="images/products/abrasives/hooknloop.jpg" class="img-responsive" /></a>
+                      <img src="images/products/abrasives/hooknloop.jpg" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-  <!-- Second Row -->
+                <!-- Second Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>Hi-Per PSA Sanding Discs</h3>
-                  <ul>
-                    <li><span>Heavy "C" weight paper discs are made from aluminum oxide with non-loading 
-                      stearate</span></li>
-                    <li><span>Pressure Sensitive Adhesive (PSA) backing with protective release liner on 
-                      every disc</span></li>
-                    <li><span>Ideal for finishing sanding of woods, paints, metals, and 
-                      plastics</span></li>
-                  </ul>
-                  <h6>Available in 5" and 6" diameters, as well as 80G, 120G, and 180G</h6>
+                    <h3>Hi-Per PSA Sanding Discs</h3>
+                    <ul>
+                      <li>
+                        <span>Heavy "C" weight paper discs are made from aluminum oxide with non-loading stearate
+                        </span>
+                      </li>
+                      <li>
+                        <span>Pressure Sensitive Adhesive (PSA) backing with protective release liner on every disc</span>
+                      </li>
+                      <li>
+                        <span>Ideal for finishing sanding of woods, paints, metals, and plastics
+                        </span>
+                      </li>
+                    </ul>
+                    <h6>Available in 5" and 6" diameters, as well as 80G, 120G, and 180G</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
                     <a href="http://store.cincinnatidowel.com/sanding-discs-&-sheets">
-                      <img src="images/products/abrasives/psadiscs.jpg" class="img-responsive" /></a>
+                      <img src="images/products/abrasives/psadiscs.jpg" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-  <!-- Third Row -->               
+                <!-- Third Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>Interface & Conversion Pads</h3>
-                  <ul>
-                    <li><span>Made from rubber material</span></li>
-                    <li><span>Placed between the sanding disc and backup pad</span></li>
-                    <li><span>Adds more padding and protects backup pad by placing more space between 
-                      the sanding surface and the sander itself</span></li>
-                    <li><span>Converts PSA backup pad to Hook N' Loop pad</span></li>
-                    <li><span>Conversion pad allows users to switch between sanding discs of different 
-                        grits when working on a project</span></li>
-                  </ul>
-                  <h6>Available in 5" and 6" diameters</h6>
+                    <h3>Interface & Conversion Pads</h3>
+                    <ul>
+                      <li>
+                        <span>Made from rubber material</span>
+                      </li>
+                      <li>
+                        <span>Placed between the sanding disc and backup pad</span>
+                      </li>
+                      <li>
+                        <span>Adds more padding and protects backup pad by placing more space between the sanding surface and the
+                          sander itself</span>
+                      </li>
+                      <li>
+                        <span>Converts PSA backup pad to Hook N' Loop pad</span>
+                      </li>
+                      <li>
+                        <span>Conversion pad allows users to switch between sanding discs of different grits when working on a
+                          project</span>
+                      </li>
+                    </ul>
+                    <h6>Available in 5" and 6" diameters</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
                     <a href="http://store.cincinnatidowel.com/abrasive-pads">
-                      <img src="images/products/abrasives/interfacepad.jpg" class="img-responsive" /></a>
+                      <img src="images/products/abrasives/interfacepad.jpg" class="img-responsive" />
+                    </a>
                   </div>
-                </div>                              
-<!-- Fourth Row -->
+                </div>
+                <!-- Fourth Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>Sanding Sheets</h3>
-                  <ul>
-                    <li><span>9" x 11" sanding sheets</span></li>
-                    <li><span>Non-loading paper</span></li>
-                    <li><span>Excellent for workshops</span></li>
-                  </ul>
-                  <h6>Available in 80G, 120G, and 180G</h6>
+                    <h3>Sanding Sheets</h3>
+                    <ul>
+                      <li>
+                        <span>9" x 11" sanding sheets</span>
+                      </li>
+                      <li>
+                        <span>Non-loading paper</span>
+                      </li>
+                      <li>
+                        <span>Excellent for workshops</span>
+                      </li>
+                    </ul>
+                    <h6>Available in 80G, 120G, and 180G</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/sanding-discs-&-sheets"><img src="images/products/abrasives/sandingsheets.jpg" 
-                      class="img-responsive" /></a>
+                    <a href="http://store.cincinnatidowel.com/sanding-discs-&-sheets">
+                      <img src="images/products/abrasives/sandingsheets.jpg" class="img-responsive" />
+                    </a>
                   </div>
-                </div>            
-<!-- Fifth Row -->
+                </div>
+                <!-- Fifth Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>Wavy Edge Scuff & Buff Ball</h3>
-                  <ul>
-                    <li><span>Wavy edge allows ball to reach into tight spaces</span></li>
-                    <li><span>Power scuffing replaces labor intensive scuffing</span></li>
-                    <li><span>Wavy edge design lasts longer due to renewing scuffing surface</span></li>
-                    <li><span>Works with most drills and electric or pneumatic grinders</span></li>
-                  </ul>
-                  <h6>Available in 5 different grits: green, maroon, tan, grey, and white</h6>
+                    <h3>Wavy Edge Scuff & Buff Ball</h3>
+                    <ul>
+                      <li>
+                        <span>Wavy edge allows ball to reach into tight spaces</span>
+                      </li>
+                      <li>
+                        <span>Power scuffing replaces labor intensive scuffing</span>
+                      </li>
+                      <li>
+                        <span>Wavy edge design lasts longer due to renewing scuffing surface</span>
+                      </li>
+                      <li>
+                        <span>Works with most drills and electric or pneumatic grinders</span>
+                      </li>
+                    </ul>
+                    <h6>Available in 5 different grits: green, maroon, tan, grey, and white</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
                     <a href="http://store.cincinnatidowel.com/scuff-&-buff-balls">
-                      <img src="images/products/abrasives/scuffball.jpg" class="img-responsive" /></a>
+                      <img src="images/products/abrasives/scuffball.jpg" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-<!-- Sixth Row -->
+                <!-- Sixth Row -->
                 <div class="row">
                   <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 productinfo">
-                  <h3>Starter and Assortment Packs</h3>
-                  
-                  <h6>We also offer starter and assortment packs in the Hoop N' Loop and PSA styles. 
-                    Packs include discs of various grits as well as a interface and conversion pad.</h6>
+                    <h3>Starter and Assortment Packs</h3>
+
+                    <h6>We also offer starter and assortment packs in the Hoop N' Loop and PSA styles. Packs include discs of
+                      various grits as well as a interface and conversion pad.</h6>
                   </div>
                   <div class="col-xs-12 col-sm-6">
                     <a href="http://store.cincinnatidowel.com/starter-kits-&-assortment-packs">
-                      <img src="images/products/abrasives/starterkit.jpg" class="img-responsive" /></a>
+                      <img src="images/products/abrasives/starterkit.jpg" class="img-responsive" />
+                    </a>
                   </div>
-                </div>             
-            </div>
-            
-<!-- Pegs Start -->            
-            <div class="col-lg-9 col-xs-12 tabcontent" id="pegs">
-  <!-- Header -->
+                </div>
+              </div>
+
+              <!-- Pegs Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="pegs">
+                <!-- Header -->
                 <h2 class="shadowheader">PEGS</h2>
-                <p>Cindoco Wood Products and its Craftwood Division can provide a full array of 
-                  retail-ready wood pegs.</p>
-  <!-- Top Row -->  
+                <p>Cindoco Wood Products and its Craftwood Division can provide a full array of retail-ready wood pegs.</p>
+                <!-- Top Row -->
                 <div class="row">
-                  <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                  <h3>Shaker Pegs</h3>
-                  <h6>Available in 4 lengths</h6>
-                  <ul>
-                    <li><span>Standard: 3-1/2"</span></li>
-                    <li><span>Medium: 2-1/2"</span></li>
-                    <li><span>Mini: 1-3/4"</span></li>
-                    <li><span>Micro: 1-1/8"</span></li>
-                  </ul>
-                  <h6>Available in Birch or Oak</h6>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Shaker Pegs</h3>
+                    <h6>Shaker pegs available in Birch or Red Oak.
+                    <br>
+                    <br>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Standard: 3-1/2"</span>
+                      </li>
+                      <li>
+                        <span>Medium: 2-1/2"</span>
+                      </li>
+                      <li>
+                        <span>Mini: 1-3/4"</span>
+                      </li>
+                      <li>
+                        <span>Micro: 1-1/8"</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                     <a href="http://store.cincinnatidowel.com/wooden-pegs">
-                      <img src="images/products/pegs/shakerpegs.jpg" class="img-responsive" /></a>
+                      <img src="images/products/pegs/shakerpeg.png" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-<!--Second Row -->                            
+                <hr>
+                <!-- Second Row -->
                 <div class="row">
-                  <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                  <h3>Mug Pegs</h3>
-                  <h6>Measure 3-3/8" in length</h6>
-                  <h6>Available in Birch or Oak</h6>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Mug Pegs</h3>
+                    <h6>Mug pegs available in Birch or Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Standard: 3-3/8"</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                     <a href="http://store.cincinnatidowel.com/wooden-pegs">
-                      <img src="images/products/pegs/mugpegs.jpg" class="img-responsive" /></a>
+                      <img src="images/products/pegs/mugpeg.png" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-<!-- Third Row -->
+                <hr>
+                <!-- Third Row -->
                 <div class="row">
-                  <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                  <h3>Tie Rack Pegs</h3>
-                  <h6>Measure 2-3/8" in length</h6>
-                  <h6>Available in Birch</h6>
-                  <h6 class="quote"><a href="contact.html">Call us for more information!</a></h6>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Tie Rack Pegs</h3>
+                    <h6>Tie rack pegs available in Birch.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                    <ul>
+                      <li>
+                        <span>Standard: 2-3/8"</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                     <a href="http://store.cincinnatidowel.com/Tie-Rack-Pegs/761">
-                      <img src="images/products/pegs/tiepegs.JPG" class="img-responsive" /></a>
+                      <img src="images/products/pegs/tierackpeg.png" class="img-responsive" />
+                    </a>
                   </div>
-                </div>                            
+                </div>
               </div>
 
-<!--Knobs Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="knobs">
-  <!-- Header -->
-                <h2 class="shadowheader">WOODEN KNOBS</h2>             
-  <!-- Top Row -->  
+              <!--Knobs Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="knobs">
+                <!-- Header -->
+                <h2 class="shadowheader">WOODEN KNOBS</h2>
+                <!-- Top Row -->
                 <div class="row">
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Ball knobs</h3>
+                    <h6>Ball knobs available in Birch.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Diameter: 3/4" to 3"</span>
+                      </li>
+                      <li>
+                        <span>Predrilled with 3/16" hole</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                     <a href="http://store.cincinnatidowel.com/ball-knobs">
-                      <img src="images/products/wood-knobs/ballknobs.jpg" class="img-responsive" /></a>
-                      <p>Hardwood Ball Knobs</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-6">
-                      <a href="http://store.cincinnatidowel.com/mushroom-knobs">
-                        <img src="images/products/wood-knobs/mushroomknobs.jpg" class="img-responsive" /></a>
-                        <p>Mushroom Pull Knobs</p>
+                      <img src="images/products/wood-knobs/ballknobs.png" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
+                <hr>
+                <!-- Second Row -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/Shaker-Knob/717">
-                          <img src="images/products/wood-knobs/shakerknob.jpg" class="img-responsive" /></a>
-                          <p>Shaker Knobs</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/Square-Knob-Kits/742">
-                          <img src="images/products/wood-knobs/squareknobs.jpg" class="img-responsive" /></a>
-                          <p>Square Knob Kits</p>
-                    </div>
-                </div>            
-            </div>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Mushroom knobs</h3>
+                    <h6>Mushroom knobs available in Birch and Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Diameter: 3/4" to 2"</span>
+                      </li>
+                      <li>
+                        <span>Predrilled with 3/16" hole</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/mushroom-knobs">
+                      <img src="images/products/wood-knobs/mushroomknobs.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Shaker knobs</h3>
+                    <h6>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Length: 5/8"</span>
+                      </li>
+                      <li>
+                        <span>OD Tenon fits 1/4" hole</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/Shaker-Knob/717">
+                      <img src="images/products/wood-knobs/shakerknob.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-<!--Spindles Start-->            
-            <div class="col-lg-9 col-xs-12 tabcontent" id="spindles">
-  <!-- Header -->
+              <!--Spindles Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="spindles">
+                <!-- Header -->
                 <h2 class="shadowheader">SPINDLES</h2>
-                <p>Cindoco Wood Products and its Craftwood Division offer a line of all the essential 
-                  spindles. They can be painted or stained and are available in a variety of different 
-                  packaging.</p>
-<!-- First Row -->                 
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S1 Spindle</h3>
-                      <h6>Measure 1-1/2" in length</h6>
-                      <h6>Available in Birch and Oak</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/1--1_2_-Birch-Spindle----S1/309">
-                          <img src="images/products/spindles/s1spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                    </div>
-<!-- Second Row -->
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S2 Spindle</h3>
-                      <h6>Measure 2-1/4" in length</h6>
-                      <h6>Available in Birch</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/2--1_4_-Birch-Spindle----S2/310">
-                          <img src="images/products/spindles/s2spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                    </div>
-<!-- Third Row -->
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S3 Spindle</h3>
-                      <h6>Measure 2-1/8" in length</h6>
-                      <h6>Available in Birch and Oak</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/2--1_8_-Birch-Spindle----S3/311">
-                          <img src="images/products/spindles/s4spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                    </div>
-<!-- Fourth Row -->
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S6 Spindle</h3>
-                      <h6>Measure 5-3/4" in length</h6>
-                      <h6>Available in Birch and Oak</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/5--3_4_-Birch-Spindle----S6/312">
-                          <img src="images/products/spindles/s6spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                    </div>
-<!-- Fifth Row -->
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S7 Spindle</h3>
-                      <h6>Measure 9" in length</h6>
-                      <h6>Available in Birch</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/9_-Birch-Spindle----S7/313">
-                          <img src="images/products/spindles/s8spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                    </div>
-<!-- Sixth Row -->
-                  <div class="row">
-                      <div class="col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 productinfo">
-                      <h3>S8 Spindle</h3>
-                      <h6>Measure 11" in length</h6>
-                      <h6>Available in Birch and Oak</h6>
-                      </div>
-                      <div class="col-xs-12 col-sm-6">
-                        <a href="http://store.cincinnatidowel.com/11_-Oak-Spindle----OTS8/779">
-                          <img src="images/products/spindles/s11spindle.jpg" class="img-responsive" /></a>
-                      </div>
-                  </div>                                                       
-            </div>
-
-<!-- Thread Racks Start -->            
-            <div class="col-lg-9 col-xs-12 tabcontent productinfo text-center" id="thread">
-  <!-- Header -->
-                <h2 class="shadowheader">THREAD RACKS</h2>
-                <p>Cindoco Wood Products and its Craftwood Division offer a line of unique products 
-                  for those who enjoy sewing or quilting.</p>           
+                <p>Cindoco Wood Products and its Craftwood Division offer a line of all the essential spindles. They can be
+                  painted or stained and are available in a variety of different packaging.
+                </p>
+                <!-- First Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S1 Spindles</h3>
+                    <h6>S1 spindles available in Birch and Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
                 
-<!-- First Row -->                  
+                    <ul>
+                      <li>
+                        <span>Dimensions: 1-1/2" x 9/16"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-spindles">
+                      <img src="images/products/spindles/s1.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Second Row -->
                 <div class="row">
-                  <div class="col-sm-4">
-                    <a href="http://store.cincinnatidowel.com/Mini-Mack-Thread-Rack/678">
-                      <img src="images/products/thread-racks/minimack.JPG" class="img-responsive" /></a>
-                    <h3>Mini Mack Thread Rack</h3>
-                    <p>Holds 30 spools of thread</p>
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="http://store.cincinnatidowel.com/Little-Mack-Thread-Rack/679">
-                      <img src="images/products/thread-racks/littlemack.JPG" class="img-responsive" /></a>
-                    <h3>Little Mack Thread Rack</h3>
-                    <p>Holds 63 spools of thread</p>    
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="http://store.cincinnatidowel.com/Big-Mack-Thread-Rack/680">
-                      <img src="images/products/thread-racks/bigmack.JPG" class="img-responsive" /></a>
-                    <h3>Big Mack Thread Rack</h3>
-                    <p>Holds 108 spools of thread</p>
-                  </div>
-              </div>
-              
-<!--Second Row-->              
-              <div class="row">
-                  <div class="col-sm-10 col-sm-offset-1">
-                    <p class="greybox">Our Standard Thread Racks come in three different sizes and can either
-                      be stood up or hung on a wall.</p> 
-                  </div> 
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <a href="http://store.cincinnatidowel.com/Small-Rotary-Thread-Rack/676">
-                    <img src="images/products/thread-racks/smallrotary.JPG" class="img-responsive" /></a>
-                  <h3>Small Rotary Thread Rack</h3>
-                  <p>Holds 80 spools or 40 cones of thread</p>
-                </div>
-                <div class="col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/Large-Rotary-Thread-Rack/677">
-                      <img src="images/products/thread-racks/largerotary.JPG" class="img-responsive" /></a>
-                  <h3>Large Rotary Thread Rack</h3>
-                  <p>Holds 120 spools or 60 cones of thread</p>
-                </div>
-              </div>
-              
-<!--Third Row-->              
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <p class="greybox">Our Rotary Thread Racks are available in two sizes and sit on a 
-                    swivel base which can be set on a table or workspace.</p>
-                </div>
-              </div>
-            </div>
-
-<!-- Quilt Start -->            
-            <div class="col-lg-9 col-xs-12 tabcontent text-center" id="quilt">
-  <!-- Header -->
-                <h2 class="shadowheader">QUILT HANGERS</h2>
-                <p>Cindoco Wood Products and its Craftwood Division are pleased to offer a line of 
-                  very useful products specifically targeting quilters.</p>
-                             
-<!-- First Row -->                  
-                <div class="row">
-                  <div class="col-sm-6">
-                    <p class="greybox verticalcenter">The Quilt Hanger is a wood hanger with a marble 
-                        which allows you to hang your 
-                        quilts or tapestries without putting holes in them. When you push the quilt into 
-                        the slot, the marble drops down and gravity holds the quilt securely in place. 
-                        To remove, you simply pull up and then to the side.</p>
-                  </div>
-
-                  <div class="col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/Quilt-Hanger/637">
-                      <img src="images/products/quilt-hangers/quilthanger.jpg" class="img-responsive" /></a>
-                    <h3>Quilt Hanger</h3>    
-                  </div> 
-                </div>
-              
-<!--Second Row-->              
-              <div class="row">
-                <div class="col-sm-6">
-                  <a href="http://store.cincinnatidowel.com/Mini-Quilt-Hanger----2-Pack/638">
-                    <img src="images/products/quilt-hangers/quilthangertwin.jpg" class="img-responsive" /></a>
-                  <h3>Quilt Hanger Twin</h3>
-                </div>
-
-                <div class="col-sm-6">
-                    <a href="http://store.cincinnatidowel.com/quilt-hangers">
-                      <img src="images/products/quilt-hangers/quilthangertwin2.jpg" class="img-responsive" /></a>
-                  <h3>Quilt Hanger Twin "Legacy"</h3>
-                </div>
-              </div>
-              
-<!--Third Row-->
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <p class="greybox">
-                      The Quilt Hanger can be painted, stained, carved, or designed in countless 
-                      other ways to match your hanging or room decor. Each Quilt Hanger has a hang-hole 
-                      on the back to make it easy to hang on a wall. The Quilt Hanger comes in 
-                      two different sizes.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-<!--Blocks Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="blocks">
-  <!-- Header -->
-                <h2 class="shadowheader">Cedar Toy Blocks</h2>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S2 Spindles</h3>
+                    <h6>S2 spindles available in Birch.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
                 
-<!-- First Row -->                  
+                    <ul>
+                      <li>
+                        <span>Dimensions: 2-1/4" x 7/8"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/2--1_4_-Birch-Spindle----S2/310">
+                      <img src="images/products/spindles/s2.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Third Row -->
                 <div class="row">
-                  <div class="col-sm-6">
-                    <p class="greybox">The Cedar Toy Block Sets are great gift ideas for 
-                      any child or grandchild. They are hand-made in the U.S.A. out of Red Aromatic 
-                      Cedar. Perfect for stimulating the creative minds of children ages 3 and up. 
-                      Currently available in four sizes: 50 pc, 70 pc, 100 pc, and 150 pc sets. Let the 
-                      building begin!</p>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S3 Spindles</h3>
+                    <h6>S3 spindles available in Birch and Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 2-1/8" x 3/4"</span>
+                      </li>
+                    </ul>
                   </div>
-
-                  <div class="col-sm-6">
-                    <img src="images/products/cedar-blocks/toyblocks1.jpg" class="img-responsive" />   
-                  </div> 
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-spindles">
+                      <img src="images/products/spindles/s3.png" class="img-responsive" />
+                    </a>
+                  </div>
                 </div>
-              
-<!--Second Row-->              
-              <div class="row">
-                <div class="col-sm-4">
-                  <img src="images/products/cedar-blocks/toyblocks2.jpg" class="img-responsive" />
-                </div>
-
-                <div class="col-sm-4">
-                    <img src="images/products/cedar-blocks/toyblocks3.jpg" class="img-responsive" />
-                </div>
-
-                <div class="col-sm-4">
-                    <img src="images/products/cedar-blocks/toyblocks4.jpg" class="img-responsive" />
-                </div>
-              </div>              
-            </div>
-
-<!--Mailboxes Start-->
-            <div class="col-lg-9 col-xs-12 tabcontent" id="mailboxes">
-<!-- Header -->
-                <h2 class="shadowheader">Cedar Mailboxes & Posts</h2>
-<!-- First Row -->                  
+                <hr>
+                <!-- Fourth Row -->
                 <div class="row">
-                  <div class="col-sm-7">
-                    <p class="greybox">Cindoco Wood Products Co. is excited to announce the release 
-                      of two great new products; the CedarBox and CedarPost! Both are handmade in the 
-                      U.S.A. from Aromatic Red Cedar. The CedarBox is a rustproof poly mailbox covered 
-                      with a naturally weather resistant red cedar cover. It is fully assembled and 
-                      ready to install with pre-drilled holes for mounting. Mounting board and hardware 
-                      are included.</p>
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S6 Spindles</h3>
+                    <h6>S6 spindles available in Birch and Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 5-3/4" x 1/2"</span>
+                      </li>
+                    </ul>
                   </div>
-
-                  <div class="col-sm-5">
-                    <a href="http://store.cincinnatidowel.com/CedarBox-Mailbox/692">
-                      <img src="images/products/mailbox/mailbox1.jpg" class="img-responsive" /></a>    
-                  </div> 
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-spindles">
+                      <img src="images/products/spindles/s6.png" class="img-responsive" />
+                    </a>
+                  </div>
                 </div>
-<!--Second Row-->                    
+                <hr>
+                <!-- Fifth Row -->
                 <div class="row">
-                  <div class="col-sm-5">
-                    <a href="http://store.cincinnatidowel.com/CedarBox-Mailbox/692">
-                      <img src="images/products/mailbox/mailbox2.jpg" class="img-responsive" /></a>    
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S7 Spindles</h3>
+                    <h6>S7 spindles available in Birch and Red Oak.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 9" x 3/4"</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="col-sm-7">
-                          <p class="greybox">To complete the set, we also offer the CedarPost, which is a 
-                              mailbox post kit to match the CedarBox. Also made of Aromatic Red Cedar, 
-                              the CedarPost kit comes with everything you need to effortlessly install your 
-                              new mailbox. No digging is necessary! All you have to do it just hammer 
-                              the metal C-beam into the ground, attach the cedar post to the metal C-beam, 
-                              screw on the back board, and then attach the mailbox on top.</p>
-                          <p class="quote blue verticalcenter">
-                              This is a great way to enhance the aesthetics of your home without 
-                              investing a lot of time or money! For more information on these durable, 
-                              American made products please <a href="contact.html">contact us today!</a> Display racks available 
-                              upon request.
-                          </p>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-spindles">
+                      <img src="images/products/spindles/s7.png" class="img-responsive" />
+                    </a>
                   </div>
                 </div>
-            </div>
-            
-<!-- Misc Start -->            
-            <div class="col-lg-9 col-xs-12 tabcontent" id="misc">
-<!-- Header -->
-              <h2 class="shadowheader">MISCELLANEOUS</h2>
-<!-- Top Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/game-calls">
-                  <img src="images/products/misc/gamecall.jpg" class="img-responsive" /></a>
+                <hr>
+                <!-- Sixth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">S8 Spindles</h3>
+                    <h6>S8 spindles available in Birch.
+                      <br>
+                      <br>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 11-1/4" x 3/4"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/wood-spindles">
+                      <img src="images/products/spindles/s7.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Thread Racks Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent productinfo" id="thread">
+                <!-- Header -->
+                <h2 class="shadowheader">THREAD RACKS & QUILT HANGERS</h2>
+                <p>Cindoco Wood Products and its Craftwood Division offer a line of unique products for those who enjoy sewing
+                  or quilting.</p>
+
+                <!-- First Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Mack Thread Rack</h3>
+                    <h6>Our Mack series thread racks are designed to be free standing, or hang on a wall.
+                      <br>
+                      <br><span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Mini Mack - 30 Spool</span>
+                      </li>
+                      <li>
+                        <span>Little Mack - 63 Spool</span>
+                      </li>
+                      <li>
+                        <span>Big Mack - 108 Spool</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/thread">
+                      <img src="images/products/thread-racks/mackthreadrack.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!--Second Row-->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Rotary Thread Rack</h3>
+                    <h6>Our Rotary series thread racks are designed to be free standing.
+                      <br>
+                      <br><span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Small - 80 Spools or 40 Cones</span>
+                      </li>
+                      <li>
+                        <span>Large - 120 Spools or 60 Cones</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/thread">
+                      <img src="images/products/thread-racks/rotarythreadrack.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+
+                <!--Third Row-->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">Quilt Hangers</h3>
+                    <h6>Our quilt hangers are a great way to hang fabrics without damage.
+                      <br>
+                      <br><span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Standard - Single Pack</span>
+                      </li>
+                      <li>
+                        <span>Mini - Twin Pack</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/quilt">
+                      <img src="images/products/thread-racks/quilthanger.jpg" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Finials Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="finials">
+                <!-- Header -->
+                <h2 class="shadowheader">BIRCH FINIALS</h2>
+
+                <!-- First Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F1</h3>
+                      <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 2-7/16" x 29/32"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F1-Birch-Finial/768">
+                      <img src="images/products/finials/f1.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!--Second Row-->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F3</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 2-7/8" x 15/16"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F3-Birch-Finial/288">
+                      <img src="images/products/finials/f3.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!--Third Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F4</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 1-1/2" x 3/4"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F4-Birch-Finial/769">
+                      <img src="images/products/finials/f4.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Fourth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F5</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 15/16" x 19/32"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F5-Birch-Finial/290">
+                      <img src="images/products/finials/f5.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Fifth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F6</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 3-15/16" x 2-7/16"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F6-Birch-Finial/289">
+                      <img src="images/products/finials/f6.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Sixth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F8</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 4-1/4" x 1-7/8"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F8-Birch-Finial/286">
+                      <img src="images/products/finials/f8.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Seventh Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F9</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 3-1/2" x 1-11/16"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F9-Birch-Finial/287">
+                      <img src="images/products/finials/f9.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+                <hr>
+                <!-- Eighth Row -->
+                <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 productinfo">
+                    <h3 class="underline">F10</h3>
+                    <span class="bold">Available Sizes:</span>
+                    </h6>
+                
+                    <ul>
+                      <li>
+                        <span>Dimensions: 3" x 1-1/2"</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="http://store.cincinnatidowel.com/F10-Birch-Finial/771">
+                      <img src="images/products/finials/f10.png" class="img-responsive" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Replacement Handles Start-->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="handles">
+                <!-- Header -->
+                <h2 class="shadowheader">Replacement Handles</h2>
+                <!-- First Row -->
+                <div class="row">
+
+                  <div class="col-xs-6 col-xs-offset-3">
+                    <img src="images/products/misc/handles.jpg" class="img-responsive" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1 col-lg-12 col-lg-offset-0">
+                      <img src="images/products/handles/handles-table.png" class="img-responsive" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Misc Start -->
+              <div class="col-lg-9 col-xs-12 tabcontent" id="misc">
+                <!-- Header -->
+                <h2 class="shadowheader">MISCELLANEOUS</h2>
+                <!-- Top Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/game-calls">
+                    <img src="images/products/misc/gamecall.jpg" class="img-responsive" />
+                  </a>
                   <p>Game Calls</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/CedarBox-Mailbox/692">
+                    <img src="images/products/mailbox/mailbox1.jpg" class="img-responsive" />
+                  </a>
+                  <p>Cedar Mailbox</p>
+                </div>
+
+                <!-- Second Row -->
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/Plastic-Accessories">
+                    <img src="images/products/misc/caplets.jpg" class="img-responsive" />
+                  </a>
+                  <p>Plastic Dowel Caplets</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <a href="http://store.cincinnatidowel.com/Note-Hanger/674">
+                    <img src="images/products/misc/notehanger.jpg" class="img-responsive" />
+                  </a>
+                  <p>Note Hangers</p>
+                </div>
+
+                <!-- Third Row -->
+
+
+
               </div>
 
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/CedarBox-Mailbox/692">
-                  <img src="images/products/mailbox/mailbox1.jpg" class="img-responsive" /></a>  
-                <p>Cedar Mailbox</p>
-              </div>
-            
-<!-- Second Row -->
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Plastic-Accessories">
-                  <img src="images/products/misc/caplets.jpg" class="img-responsive" /></a>
-                <p>Plastic Dowel Caplets</p>
-              </div>
-
-              <div class="col-sm-6">
-                <a href="http://store.cincinnatidowel.com/Note-Hanger/674">
-                  <img src="images/products/misc/notehanger.jpg" class="img-responsive" /></a>
-                <p>Note Hangers</p>
-              </div>
-
-<!-- Third Row -->
-              
-
-              
+              <!-- End of product List-->
             </div>
-
-<!-- End of product List-->          
+          </div>
         </div>
+
+        <!--Footer-->
+        <div class="col-lg-12 col-sm-12 text-center" id="footernav">
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-3 col-sm-1 col-sm-offset-0 socialmedia2">
+              <a href="https://www.facebook.com/CindocoWood/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div>
+            <div class="col-xs-2 col-sm-1 socialmedia2">
+              <a href="https://www.instagram.com/cindocowood/?hl=en" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-xs-2 col-sm-1 socialmedia2">
+              <a href="https://twitter.com/cindoco" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+              <p>Call Toll Free: 800-242-9663</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <p>
+                <i class="fa fa-copyright"></i> 2018 COPYRIGHT CINDOCO</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-    
-<!--Footer-->
-<div class="col-lg-12 col-sm-12 text-center" id="footernav">
-    <div class="row">
-        <div class="col-xs-2 col-xs-offset-3 col-sm-1 col-sm-offset-0 socialmedia2">
-            <a href="https://www.facebook.com/CindocoWood/" target="_blank"><i class="fa fa-facebook"></i></a>
-        </div>
-        <div class="col-xs-2 col-sm-1 socialmedia2">
-            <a href="https://www.instagram.com/cindocowood/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-        </div>
-        <div class="col-xs-2 col-sm-1 socialmedia2">
-            <a href="https://twitter.com/cindoco" target="_blank"><i class="fa fa-twitter"></i></a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-sm-offset-1">
-            <p>Call Toll Free: 800-242-9663</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <p><i class="fa fa-copyright"></i> 2018 COPYRIGHT CINDOCO</p>
-        </div>
-    </div>
-</div>
-    
-    </div>
   </div>
-</div>
 
-<script>
-            function openTab(evt, tabName) {
-              var i, tabcontent, tablinks;
-            
-            /*Hides all elements with class="tabcontent" */
-              tabcontent = document.getElementsByClassName("tabcontent");
-              for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-              }
-            
-            /*Get all elements with class="tablinks" and remove the class "active"*/
-              tablinks = document.getElementsByClassName("tablinks");
-              for (i=0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-              }
-            
-            /*Show the current tab, and add an "active" class to the button that opened the tab*/
-              document.getElementById(tabName).style.display = "block";
-              evt.currentTarget.className += " active";
-            }
-            /*Set first tab to active on pageload*/
-            document.getElementById("defaultOpen").click();
+  <script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
 
-            function clicky(evt) {
-              if (evt.currentTarget.classList.contains('merch')) {
-                document.getElementById('merchButton').click();
-              } else if (evt.currentTarget.classList.contains('pack')) {
-                document.getElementById('packButton').click();
-              } else if (evt.currentTarget.classList.contains('dowel')) {
-                document.getElementById('dowelButton').click();
-              } else if (evt.currentTarget.classList.contains('plug')) {
-                document.getElementById('plugButton').click();
-              } else if (evt.currentTarget.classList.contains('join')) {
-                document.getElementById('joinButton').click();
-              } else if (evt.currentTarget.classList.contains('toys')) {
-                document.getElementById('toysButton').click();
-              } else if (evt.currentTarget.classList.contains('mould')) {
-                document.getElementById('mouldButton').click();
-              } else if (evt.currentTarget.classList.contains('shim')) {
-                document.getElementById('shimButton').click();
-              } else if (evt.currentTarget.classList.contains('abra')) {
-                document.getElementById('abraButton').click();
-              } else if (evt.currentTarget.classList.contains('peg')) {
-                document.getElementById('pegButton').click();
-              } else if (evt.currentTarget.classList.contains('knob')) {
-                document.getElementById('knobButton').click();
-              } else if (evt.currentTarget.classList.contains('fin')) {
-                document.getElementById('finButton').click();
-              } else if (evt.currentTarget.classList.contains('spin')) {
-                document.getElementById('spinButton').click();
-              } else if (evt.currentTarget.classList.contains('threadrack')) {
-                document.getElementById('threadrackButton').click();
-              } else if (evt.currentTarget.classList.contains('quilthanger')) {
-                document.getElementById('quilthangerButton').click();
-              } else if (evt.currentTarget.classList.contains('handle')) {
-                document.getElementById('handleButton').click();
-              } else if (evt.currentTarget.classList.contains('miscell')) {
-                document.getElementById('miscellButton').click();
-              }
-            }
-</script>      
+      /*Hides all elements with class="tabcontent" */
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      /*Get all elements with class="tablinks" and remove the class "active"*/
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      /*Show the current tab, and add an "active" class to the button that opened the tab*/
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    /*Set first tab to active on pageload*/
+    document.getElementById("defaultOpen").click();
+
+    function clicky(evt) {
+      if (evt.currentTarget.classList.contains('merch')) {
+        document.getElementById('merchButton').click();
+      } else if (evt.currentTarget.classList.contains('pack')) {
+        document.getElementById('packButton').click();
+      } else if (evt.currentTarget.classList.contains('dowel')) {
+        document.getElementById('dowelButton').click();
+      } else if (evt.currentTarget.classList.contains('plug')) {
+        document.getElementById('plugButton').click();
+      } else if (evt.currentTarget.classList.contains('join')) {
+        document.getElementById('joinButton').click();
+      } else if (evt.currentTarget.classList.contains('toys')) {
+        document.getElementById('toysButton').click();
+      } else if (evt.currentTarget.classList.contains('mould')) {
+        document.getElementById('mouldButton').click();
+      } else if (evt.currentTarget.classList.contains('shim')) {
+        document.getElementById('shimButton').click();
+      } else if (evt.currentTarget.classList.contains('abra')) {
+        document.getElementById('abraButton').click();
+      } else if (evt.currentTarget.classList.contains('peg')) {
+        document.getElementById('pegButton').click();
+      } else if (evt.currentTarget.classList.contains('knob')) {
+        document.getElementById('knobButton').click();
+      } else if (evt.currentTarget.classList.contains('fin')) {
+        document.getElementById('finButton').click();
+      } else if (evt.currentTarget.classList.contains('spin')) {
+        document.getElementById('spinButton').click();
+      } else if (evt.currentTarget.classList.contains('threadrack')) {
+        document.getElementById('threadrackButton').click();
+      } else if (evt.currentTarget.classList.contains('quilthanger')) {
+        document.getElementById('quilthangerButton').click();
+      } else if (evt.currentTarget.classList.contains('handle')) {
+        document.getElementById('handleButton').click();
+      } else if (evt.currentTarget.classList.contains('miscell')) {
+        document.getElementById('miscellButton').click();
+      }
+    }
+  </script>
 </body>
+
 </html>

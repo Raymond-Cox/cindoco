@@ -385,7 +385,7 @@ background: rgba(232, 208, 169, .6);
 text-align: center;
 }
 #header a {
-    color: #1364AD;;
+    color: #1364AD;
     font-weight: bold;
 }
 .greybox p {
@@ -415,6 +415,13 @@ text-align: center;
 .bold {
     font-weight: bold;
 }
+.underline {
+    text-decoration: underline;
+}
+.italicize {
+    font-style: italic;
+    font-size: 14px;
+}
 .quote {
     font-size: 34px;
     color: #1364AD;
@@ -442,7 +449,7 @@ text-align: center;
     letter-spacing: 1px;
 }
 #footernav {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 3%;
     background: #1364AD;
     border: 1px solid silver;
@@ -488,6 +495,7 @@ text-align: center;
     padding: 14px 18px;
     display: block;
     width: 100%;
+    font-size: 12px;
   }
   
   .tab button:hover {
@@ -530,14 +538,12 @@ text-align: center;
     border: none;
   }
 
-  #dowels img, #spindles img, #misc img, #pegs img {
+  #dowels img, #spindles img, #misc img, #pegs img, #shims img, #handles img, #finials img, #buttons img, #thread img {
     margin: 0 auto;
-    height: 200px;
-    width: auto;
     border: none;
   }
 
-  #packaging img, #joinery img, #buttons img, #toy img, #knobs img {
+  #packaging img, #toy img, #knobs img, #joinery img {
     margin: 0 auto;
     height: 175px;
     width: auto;
@@ -546,43 +552,32 @@ text-align: center;
   #mouldings img {
     margin: 0 auto;
 }
-  #glue img:not(#ad) {
-    padding-top: 10%;
-    height: 250px;
-    width: auto;
-  }
-  #glue img, #mailboxes img {
-    border: none;
-    margin: 0 auto;
-  }
-  #thread img, #quilt img {
-    margin: 0 auto;
-  }
-  #ad {
-      padding-bottom: 5%;
-  }
   #abrasives img {
     height: 300px;
     width: auto;
     border: none;
     margin: 0 auto;
   }
-  #blocks img {
-    height: 250px;
-    width: auto;
-    border: none;
-    margin: 0 auto;
+
+  #tabbedarea hr {
+      border-color: #D3D3D3;
+  }
+  #footernav p {
+      color: white;
   }
   #abrasives .row, #pegs .row, #spindles .row, #thread .row,
-  #blocks .row, #quilt .row, #mailboxes .row, #misc .row {
-    padding-bottom: 2%;
+  #finials .row, #quilt .row, #misc .row, #handles .row, #shims .row, #buttons .row, #dowels .row, #joinery .row, #knobs .row, #spindles .row {
+    padding-bottom: 1%;
+    padding-top: 1%;
   }
+
   /* Product information formatting */
   .productinfo h3 {
       font-weight: bold;
+      font-size: 22px;
   }
   .productinfo h6 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .productinfo ul li {
       color: #1364AD;
@@ -590,7 +585,7 @@ text-align: center;
   .productinfo ul li span {
       color: black;
   }
-  
+
   .description {
     text-align: center;
     font-weight: lighter;
