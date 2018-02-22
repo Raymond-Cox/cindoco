@@ -567,7 +567,7 @@ text-align: center;
       color: white;
   }
   #abrasives .row, #pegs .row, #spindles .row, #thread .row,
-  #finials .row, #quilt .row, #misc .row, #handles .row, #shims .row, #buttons .row, #dowels .row, #joinery .row, #knobs .row, #spindles .row {
+  #finials .row, #quilt .row, #misc .row, #handles .row, #shims .row, #buttons .row, #dowels .row, #joinery .row, #knobs .row, #spindles .row, #misc .row {
     padding-bottom: 1%;
     padding-top: 1%;
   }
