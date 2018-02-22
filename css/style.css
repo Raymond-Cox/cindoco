@@ -551,6 +551,7 @@ text-align: center;
   }
   #mouldings img {
     margin: 0 auto;
+    border: none;
 }
   #abrasives img {
     height: 300px;
@@ -570,7 +571,29 @@ text-align: center;
     padding-bottom: 1%;
     padding-top: 1%;
   }
-
+  #mouldings table, th, td {
+      border: 2px solid black;
+  }
+  #mouldings th {
+      text-align: center;
+      background-color: #1364AD;
+      color: white;
+      font-weight: normal;
+      padding: 1%;
+  }
+  
+  #mouldings td {
+      padding: 2%;
+  }
+  #mouldings td:nth-child(even) {
+      width: 33.3%;
+  }
+  #mouldings td:nth-child(odd) {
+      width: 33.4%;
+  }
+  .white {
+      color: white;
+  }
   /* Product information formatting */
   .productinfo h3 {
       font-weight: bold;
