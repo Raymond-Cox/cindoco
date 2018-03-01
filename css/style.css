@@ -110,6 +110,12 @@ transition: color 0.2s ease-out;
     .mouldingpad {
         margin-top: 1%;
     }
+    .largetableinfo {
+        display: none;
+    }
+    .smalltableinfo {
+        display: block !important;
+    }
 }
 @media screen and (max-width: 767px) and (min-width: 450px) {
     #brand img {
@@ -617,6 +623,11 @@ text-align: center;
   #handles tr:nth-child(odd) {
       background-color: #D3D3D3;
   }
+  #thirdtable tr:nth-child(6) {
+      background-color: #1364AD;
+      color: white;
+      font-weight: normal;
+  }
   .white {
       color: white;
   }
@@ -657,6 +668,12 @@ text-align: center;
   }
   .verticalcenter {
       margin-top: 10%;
+  }
+  .smalltableinfo {
+      display: none;
+  }
+  .largetableinfo {
+      display: show;
   }
   /* Special Order Forms CSS */
   .specialheader {
